@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 7c42ed404e8599b45b42ff6d8ce20193
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1919486324624539704
+    second: Astronaut Player_0
+  - first:
+      213: 4797480694423903473
+    second: Astronaut Player_1
+  - first:
+      213: -4497691823988672812
+    second: Astronaut Player_2
+  - first:
+      213: 7769440164248163232
+    second: Astronaut Player_3
+  - first:
+      213: -117825030194610180
+    second: Astronaut Player_4
+  - first:
+      213: 6761768721097367820
+    second: Astronaut Player_5
+  - first:
+      213: -6720694146915523827
+    second: Astronaut Player_6
+  - first:
+      213: -3747931898193480736
+    second: Astronaut Player_7
+  - first:
+      213: -1012321174318623943
+    second: Astronaut Player_8
+  - first:
+      213: -8949520407523311964
+    second: Astronaut Player_9
+  - first:
+      213: 2839572808659945653
+    second: Astronaut Player_10
+  - first:
+      213: 7785339312668445603
+    second: Astronaut Player_11
+  - first:
+      213: -5603773403101529438
+    second: Astronaut Player_12
+  - first:
+      213: -3419345589648499020
+    second: Astronaut Player_13
+  - first:
+      213: -9018497247274209398
+    second: Astronaut Player_14
+  - first:
+      213: 2858260969665048614
+    second: Astronaut Player_15
+  - first:
+      213: -107332712853502393
+    second: Astronaut Player_16
+  - first:
+      213: 2949488498541518850
+    second: Astronaut Player_17
+  - first:
+      213: 489568998997798913
+    second: Astronaut Player_18
+  - first:
+      213: 1594447567162991297
+    second: Astronaut Player_19
+  - first:
+      213: 1601446008770291061
+    second: Astronaut Player_20
+  - first:
+      213: 5790817491210122864
+    second: Astronaut Player_21
+  - first:
+      213: -6821423471004119159
+    second: Astronaut Player_22
+  - first:
+      213: 1550971609611722232
+    second: Astronaut Player_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Astronaut Player_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 109
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830477274a263aa10800000000000000
+      internalID: 1919486324624539704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 109
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc5eeff543149240800000000000000
+      internalID: 4797480694423903473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 109
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6f9f9ad1df491c0800000000000000
+      internalID: -4497691823988672812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 109
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a31aa54aa892db60800000000000000
+      internalID: 7769440164248163232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 109
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cffb99162c66d5ef0800000000000000
+      internalID: -117825030194610180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 109
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c012b5293d0a6dd50800000000000000
+      internalID: 6761768721097367820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 109
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03ad09f74c4bb2a0800000000000000
+      internalID: -6720694146915523827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 109
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e372d5cbcbacfbc0800000000000000
+      internalID: -3747931898193480736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 61
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933d126614383f1f0800000000000000
+      internalID: -1012321174318623943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 61
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aeb67f1b9aecc380800000000000000
+      internalID: -8949520407523311964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 61
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8c80ebc60386720800000000000000
+      internalID: 2839572808659945653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_11
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 61
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab8c7b3bd41b0c60800000000000000
+      internalID: 7785339312668445603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 61
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aaf95aa7c56b32b0800000000000000
+      internalID: -5603773403101529438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_13
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 61
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bed3bc7d4b0c80d0800000000000000
+      internalID: -3419345589648499020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 61
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fe160298cd7d280800000000000000
+      internalID: -9018497247274209398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 61
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620bf3c45359aa720800000000000000
+      internalID: 2858260969665048614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 13
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7468691677da28ef0800000000000000
+      internalID: -107332712853502393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 13
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200eaa09920bee820800000000000000
+      internalID: 2949488498541518850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_18
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 13
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100be46296c4bc600800000000000000
+      internalID: 489568998997798913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 13
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c26cb55d9d902610800000000000000
+      internalID: 1594447567162991297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 13
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57568bff8aa793610800000000000000
+      internalID: 1601446008770291061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_21
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 13
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076b2b2c3dd1d5050800000000000000
+      internalID: 5790817491210122864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_22
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 13
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f894c9e7f6551a0800000000000000
+      internalID: -6821423471004119159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut Player_23
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 13
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd5f972678268510800000000000000
+      internalID: 1550971609611722232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Astronaut Player_0: 1919486324624539704
+      Astronaut Player_1: 4797480694423903473
+      Astronaut Player_10: 2839572808659945653
+      Astronaut Player_11: 7785339312668445603
+      Astronaut Player_12: -5603773403101529438
+      Astronaut Player_13: -3419345589648499020
+      Astronaut Player_14: -9018497247274209398
+      Astronaut Player_15: 2858260969665048614
+      Astronaut Player_16: -107332712853502393
+      Astronaut Player_17: 2949488498541518850
+      Astronaut Player_18: 489568998997798913
+      Astronaut Player_19: 1594447567162991297
+      Astronaut Player_2: -4497691823988672812
+      Astronaut Player_20: 1601446008770291061
+      Astronaut Player_21: 5790817491210122864
+      Astronaut Player_22: -6821423471004119159
+      Astronaut Player_23: 1550971609611722232
+      Astronaut Player_3: 7769440164248163232
+      Astronaut Player_4: -117825030194610180
+      Astronaut Player_5: 6761768721097367820
+      Astronaut Player_6: -6720694146915523827
+      Astronaut Player_7: -3747931898193480736
+      Astronaut Player_8: -1012321174318623943
+      Astronaut Player_9: -8949520407523311964
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
