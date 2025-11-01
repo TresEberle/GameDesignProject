@@ -10,8 +10,8 @@ public class PlayerMoveState : EntityState {
     {
         base.Update();
 
-        //player.dustRunning.Play(); spawns dust, per update
-       
+        //player.dustRunning.Play();
+
 
         if (player.moveInput.x == 0 && player.moveInput.y == 0)
         {

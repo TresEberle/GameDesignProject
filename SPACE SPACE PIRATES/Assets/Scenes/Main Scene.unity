@@ -1784,7 +1784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b343b2e14974704487fe8bea46478dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: a1cb5f96b5e8b914fa3043987c82829d, type: 2}
+  audioMixer: {fileID: 0}
 --- !u!1 &794381325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1975,7 +1975,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1919486324624539704, guid: 7c42ed404e8599b45b42ff6d8ce20193, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2796,7 +2796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 795ddfaa3e5f2da4fbaf228f2c0fb364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundFXObject: {fileID: 2114662960226115313, guid: 3257ab5fdd6b7794abb8aa868fbd6275, type: 3}
+  soundFXObject: {fileID: 0}
 --- !u!1 &1155795941
 GameObject:
   m_ObjectHideFlags: 0
@@ -8579,7 +8579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MenuPanel: {fileID: 641738422}
   dustRunning: {fileID: 1510126959}
-  moveSpeed: 8
+  moveSpeed: 9
   moveInput: {x: 0, y: 0}
   isInMenu: 1
 --- !u!61 &1852801296
