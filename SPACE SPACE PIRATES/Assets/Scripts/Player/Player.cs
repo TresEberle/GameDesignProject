@@ -23,6 +23,10 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb { get; private set; }
     public ParticleSystem dustRunning;
 
+    [Header("Player Stats")]
+    public float maxHealth = 100;
+    public float health;
+    [Space]
 
 
     [Header("Movement Details")]
@@ -109,10 +113,17 @@ public class Player : MonoBehaviour
     }
 
 
-    public void Flip() {
+    public void Flip()
+    {
         transform.Rotate(0, 180, 0);
         facingRight = !facingRight;
         facingDir = facingDir * -1;
+    }
+    
+    public void Heal(float amount)
+    {
+        if (health <= 0f) return;
+        health = Mathf.Min(maxHealth, health + amount);
     }
 
     private void OnDrawGizmos()
