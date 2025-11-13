@@ -2162,6 +2162,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 0}
+--- !u!1 &744844840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 744844842}
+  - component: {fileID: 744844841}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &744844841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744844840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d093c0b2725c661418f6ba59f2a025bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundMusic:
+  - {fileID: 8300000, guid: 95d41089099dfb94d8c728738717872c, type: 3}
+  - {fileID: 8300000, guid: d51a6fb250dce3240b75156a05e0bb6d, type: 3}
+  - {fileID: 8300000, guid: 9a7214219dc161349841530e1d228f0d, type: 3}
+  - {fileID: 8300000, guid: ab2552f8df12ccc4388d77b14a95ee1f, type: 3}
+  - {fileID: 8300000, guid: 1a19cc4659f38e94fbb994e51494126d, type: 3}
+  audioSource: {fileID: 996906360}
+  player: {fileID: 1852801295}
+--- !u!4 &744844842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744844840}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -48.38306, y: -69.46548, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &794381325
 GameObject:
   m_ObjectHideFlags: 0
@@ -2582,7 +2634,7 @@ GameObject:
   - component: {fileID: 996906360}
   m_Layer: 0
   m_Name: MusicManager
-  m_TagString: Untagged
+  m_TagString: Music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9163,6 +9215,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MenuPanel: {fileID: 641738422}
   dustRunning: {fileID: 1510126959}
+  maxHealth: 100
+  health: 0
   moveSpeed: 9
   moveInput: {x: 0, y: 0}
   isInMenu: 1
@@ -9360,6 +9414,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 744844842}
   - {fileID: 1232843266}
   - {fileID: 1804226953}
   - {fileID: 944527146}

@@ -39,6 +39,13 @@ public abstract class EntityState {
             Debug.Log("QUEST TAB");
         }
 
+        if (input.Player.Interact.WasPressedThisFrame()) {
+            //TODO: // debug audio for now, to be change as a button to interact with npcs or objects
+            Debug.Log("Interact Key Was pressed");
+            GameManager.instance.PirateShipSong();
+        }
+
+
         if (input.Player.MenuPage.WasPressedThisFrame())
         {
             //Open Menu Page System 
