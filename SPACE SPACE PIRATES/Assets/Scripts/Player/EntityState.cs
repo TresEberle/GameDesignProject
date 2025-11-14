@@ -42,7 +42,7 @@ public abstract class EntityState {
         if (input.Player.Interact.WasPressedThisFrame()) {
             //TODO: // debug audio for now, to be change as a button to interact with npcs or objects
             Debug.Log("Interact Key Was pressed");
-            GameManager.instance.PirateShipSong();
+            GameManager.instance.playerTeleport();
         }
 
 

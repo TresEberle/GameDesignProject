@@ -14,16 +14,17 @@ public class GameManager : MonoBehaviour
     [SerializeField] public Player player;
 
     [Header("Portal Locations")]
-    [SerializeField] public Vector2 portal1;
-    [SerializeField] public Vector2 portal2;
+    [SerializeField] public GameObject portal1;
+    [SerializeField] public GameObject portal2;
 
     //to keep track of camera confiner (might not be implemented) 
     [Header("Cinemachine Camera Confiner")] 
     public static GameObject[] CameraConfiner { get; set; }
-    
+
     //to keep track player location
-    bool isInSpaceship { get; set; } 
-    bool isInPirateShip { get; set; }
+    public bool isSpaceShip = true;
+
+
 
     //to keep track world states. locked doors... 
 
@@ -48,22 +49,39 @@ public class GameManager : MonoBehaviour
         
     }
 
-    // PLAYER TELEPORT -- 
+
+
+    // PLAYER TELEPORT -- not final 
     public void playerTeleport(Vector2 playerPosition) 
     {
-        player.transform.position = playerPosition;
-        
+      player.transform.position = playerPosition;        
     }
 
     public void playerTeleportToPirateShip() { //test
-        playerTeleport(portal2);
+        playerTeleport(portal2.GetComponent<Transform>().position);
     }
 
     public void playerTeleportToSpaceShip()//test
     {
-        playerTeleport(portal1);
+        playerTeleport(portal1.GetComponent<Transform>().position);
     }
 
+    public void playerTeleport() {
+        if (!isSpaceShip)
+        {
+            playerTeleportToPirateShip();
+            PirateShipSong();
+            isSpaceShip = !isSpaceShip;
+
+        }
+        else 
+        {
+            playerTeleportToSpaceShip();
+            SpaceShipSong();
+            isSpaceShip = !isSpaceShip;
+
+        }
+    }
 
 
 
