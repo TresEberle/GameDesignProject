@@ -21,7 +21,7 @@ public class Quest
     public GameObject reward;
 
     // Quest Information = its name, what it is, is it done, and reward
-    public questInfo(string name, string desc, GameObject rewardObj = null)
+    public Quest(string name, string desc, GameObject rewardObj = null)
     {
         questName = name;
         description = desc;
@@ -51,8 +51,8 @@ public class QuestSystem : MonoBehaviour
     // Player will be working on multiple quests at a time.
     // So, need to keep track of what quests are working on currently
     // and the quests they have successfully completed.
-    public List<Quest> activeQuests = new List<>(Quest);
-    public List<Quest> completedQuests = new List<>(Quest);
+    public List<Quest> activeQuests = new List<Quest>();
+    public List<Quest> completedQuests = new List<Quest>();
 
     // Add the quest to the player's to-do list to help them keep track
     // of how to progress through the game.

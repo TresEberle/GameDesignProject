@@ -19,7 +19,7 @@ public class StarSystem : MonoBehaviour, IPointerClickHandler
     public int starID;
     public bool isSelected = false;
 
-    public ConstellationManager manager;
+    public ConnectStarsQuest manager;
 
     public Color normalColor = Color.white;
     public Color selectedColor = Color.yellow;
