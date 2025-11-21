@@ -25,7 +25,8 @@ public class EnemyHealth : MonoBehaviour, IDamageable
     {
         health = maxHealth;
         var col = GetComponent<Collider2D>();
-        col.isTrigger = true;
+        col.isTrigger = false;
+        
     }
 
     public void TakeDamage(float amount)
