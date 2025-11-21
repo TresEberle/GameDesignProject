@@ -113,6 +113,12 @@ public class Player : MonoBehaviour
     }
 
 
+    public void TakeDamage(float amount)
+    {
+        if (health <= 0f) return;
+        health = Mathf.Max(0f, health - amount);
+    }
+    
     public void Flip()
     {
         transform.Rotate(0, 180, 0);
