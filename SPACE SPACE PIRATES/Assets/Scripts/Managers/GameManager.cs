@@ -26,7 +26,30 @@ public class GameManager : MonoBehaviour
 
 
 
-    //to keep track world states. locked doors... 
+
+    enum gameSequence {
+    
+        start,
+        Sequence01,
+        Sequence02,
+        Sequence03,
+        Sequence04,
+        Sequence05,
+        Sequence06,
+        end,
+
+    }
+
+    enum music {
+        startMusic,
+        dead01,
+        dead02,
+        BossCrab,
+        BossParrot,
+        spaceMusic,
+        PiarateMusic,
+        endingMusic,
+    }
 
 
     public static GameManager instance { get; private set; }
@@ -70,14 +93,14 @@ public class GameManager : MonoBehaviour
         if (!isSpaceShip)
         {
             playerTeleportToPirateShip();
-            PirateShipSong();
+            SpaceShipSong();
             isSpaceShip = !isSpaceShip;
 
         }
         else 
         {
             playerTeleportToSpaceShip();
-            SpaceShipSong();
+            PirateShipSong();
             isSpaceShip = !isSpaceShip;
 
         }
