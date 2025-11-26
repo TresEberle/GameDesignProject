@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 91a3c9d972a51fc4397fcadc49783da0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3731106192436794280
+    second: wsadmovesign_0
+  - first:
+      213: -1753290474473719220
+    second: wsadmovesign_1
+  - first:
+      213: -4235222227918031064
+    second: wsadmovesign_2
+  - first:
+      213: -4625321232382194909
+    second: wsadmovesign_3
+  - first:
+      213: 4092644354356918258
+    second: wsadmovesign_4
+  - first:
+      213: -7335583298639978523
+    second: wsadmovesign_5
+  - first:
+      213: -8991402703865845712
+    second: wsadmovesign_6
+  - first:
+      213: 657881500815593022
+    second: wsadmovesign_7
+  - first:
+      213: 2921770708629100663
+    second: wsadmovesign_8
+  - first:
+      213: 3024589254573398501
+    second: wsadmovesign_9
+  - first:
+      213: 4431932541825704913
+    second: wsadmovesign_10
+  - first:
+      213: -3521886235141833207
+    second: wsadmovesign_11
+  - first:
+      213: 1193000697315284372
+    second: wsadmovesign_12
+  - first:
+      213: 6005723054770473986
+    second: wsadmovesign_13
+  - first:
+      213: -4293345156980551693
+    second: wsadmovesign_14
+  - first:
+      213: -3526925819188644133
+    second: wsadmovesign_15
+  - first:
+      213: 1434452986980066220
+    second: wsadmovesign_16
+  - first:
+      213: 2338286822316059559
+    second: wsadmovesign_17
+  - first:
+      213: 533481881428641102
+    second: wsadmovesign_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wsadmovesign_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 224
+        width: 81
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a39473505d87c330800000000000000
+      internalID: 3731106192436794280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 224
+        width: 81
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4afae05a9f0ba7e0800000000000000
+      internalID: -1753290474473719220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 305
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8277b18a2d77935c0800000000000000
+      internalID: -4235222227918031064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_3
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 304
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b89cb58de8fcfb0800000000000000
+      internalID: -4625321232382194909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_4
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 305
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7b3754b5efbc830800000000000000
+      internalID: 4092644354356918258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_5
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 304
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef96400bd5c23a90800000000000000
+      internalID: -7335583298639978523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_6
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 305
+        width: 7
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038e69b11ee183380800000000000000
+      internalID: -8991402703865845712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_7
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 305
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e0a684db3412900800000000000000
+      internalID: 657881500815593022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_8
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 248
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7789af2baf63c8820800000000000000
+      internalID: 2921770708629100663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 247
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e99f4ee6ef79f920800000000000000
+      internalID: 3024589254573398501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_10
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 248
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3e3085a23618d30800000000000000
+      internalID: 4431932541825704913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_11
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 247
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e780ff02fbf1fc0800000000000000
+      internalID: -3521886235141833207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_12
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 248
+        width: 7
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495554c30d36e8010800000000000000
+      internalID: 1193000697315284372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 248
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cc7f27c4d985350800000000000000
+      internalID: 6005723054770473986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_14
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 224
+        width: 456
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffc70ca359fa64c0800000000000000
+      internalID: -4293345156980551693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 216
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd67b1667a7dd0fc0800000000000000
+      internalID: -3526925819188644133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 217
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3e1ff346338e310800000000000000
+      internalID: 1434452986980066220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_17
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 0
+        width: 217
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab2023e973437020800000000000000
+      internalID: 2338286822316059559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wsadmovesign_18
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 0
+        width: 216
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4549a4d1fe476700800000000000000
+      internalID: 533481881428641102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wsadmovesign_0: 3731106192436794280
+      wsadmovesign_1: -1753290474473719220
+      wsadmovesign_10: 4431932541825704913
+      wsadmovesign_11: -3521886235141833207
+      wsadmovesign_12: 1193000697315284372
+      wsadmovesign_13: 6005723054770473986
+      wsadmovesign_14: -4293345156980551693
+      wsadmovesign_15: -3526925819188644133
+      wsadmovesign_16: 1434452986980066220
+      wsadmovesign_17: 2338286822316059559
+      wsadmovesign_18: 533481881428641102
+      wsadmovesign_2: -4235222227918031064
+      wsadmovesign_3: -4625321232382194909
+      wsadmovesign_4: 4092644354356918258
+      wsadmovesign_5: -7335583298639978523
+      wsadmovesign_6: -8991402703865845712
+      wsadmovesign_7: 657881500815593022
+      wsadmovesign_8: 2921770708629100663
+      wsadmovesign_9: 3024589254573398501
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,6 +6,18 @@ TagManager:
   tags:
   - Teleporter
   - Music
+  - OutsidePirateShip
+  - InsidePirateShip
+  - FreezerSpaceShip
+  - FreezerToPirateShip
+  - pirateToSmallIsland
+  - SmallIslandToPirate
+  - SmallToLarge
+  - LargeToSmall
+  - LargeIsland
+  - ToShip
+  - Enemy
+  - spawn01
   layers:
   - Default
   - TransparentFX

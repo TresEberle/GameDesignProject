@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public abstract class EntityState {
@@ -43,6 +42,8 @@ public abstract class EntityState {
             //TODO: // debug audio for now, to be change as a button to interact with npcs or objects
             Debug.Log("Interact Key Was pressed");
             GameManager.instance.playerTeleport();
+            CameraShake.instance.ShakeCamera(5f,2f);
+
         }
 
 

@@ -1,6 +1,4 @@
-using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
