@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ca636ad2fdf880d41af51bf3fb594a37
+guid: 291546111d89a47b5b17b9313e4106bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3102398728666962071
-    second: PORTAL_0
+      213: 5030751107281439510
+    second: Big Vial - BLACK - 0000_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PORTAL_0
+      name: Big Vial - BLACK - 0000_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 13
-        width: 2228
-        height: 1806
+        x: 0
+        y: 0
+        width: 22
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79851ddd43fed0b20800000000000000
-      internalID: 3102398728666962071
+      spriteID: 61bc9ee5a71d0d540800000000000000
+      internalID: 5030751107281439510
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      PORTAL_0: 3102398728666962071
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

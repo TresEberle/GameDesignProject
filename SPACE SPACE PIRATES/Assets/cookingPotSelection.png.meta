@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cookingPotSelection_0: -4688866159375364436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

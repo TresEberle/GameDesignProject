@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PARROT_0: 5080755019239016446
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
