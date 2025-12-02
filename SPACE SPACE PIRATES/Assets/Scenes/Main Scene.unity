@@ -18478,11 +18478,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StarsPanel: {fileID: 1074808344}
+  TopPanel: {fileID: 387892075}
+  BottomPanel: {fileID: 1460855028}
   correctBeep: {fileID: 8300000, guid: ed14c16f54a310f499b3c2789501db22, type: 3}
+  completeBeep: {fileID: 8300000, guid: 753e36a4aca7bf643af9237b5490389a, type: 3}
   starContainer: {fileID: 1085254871}
   lineContainer: {fileID: 558577168}
   starPrefab: {fileID: 558972673705941442, guid: c1749fcca74dceb4ab5115916bedf2cf, type: 3}
   linePrefab: {fileID: 6682709129461376338, guid: 805705c4cda32b74d898807df9522ce2, type: 3}
+  questSystem: {fileID: 1816443280}
+  questName: Connect the Stars
+  code: 1074
 --- !u!1 &1892663117
 GameObject:
   m_ObjectHideFlags: 0
