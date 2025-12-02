@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sci_fi_container_1_backgroundremoved_0: -3149951288053241071
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
