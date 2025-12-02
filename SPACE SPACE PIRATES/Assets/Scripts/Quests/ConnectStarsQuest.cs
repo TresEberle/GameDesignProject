@@ -37,6 +37,9 @@ public class ConnectionData
 
 public class ConnectStarsQuest : MonoBehaviour
 {
+    private bool roundOver = false;
+
+    public GameObject StarsPanel;
     public AudioClip correctBeep;
     
     //starContainer holds the starPrefab for the star constellations
@@ -48,8 +51,6 @@ public class ConnectStarsQuest : MonoBehaviour
 
     //what constellation on
     private int currentConstellationIndex = 0;
-    //finished constellation
-    private int completedConstellations = 0;
 
     //player's selection 
     private StarSystem firstSelectedStar = null;
@@ -60,23 +61,39 @@ public class ConnectStarsQuest : MonoBehaviour
 
     private ConstellationData[] constellations;
 
+    //This will control what panel shows and when.
+    void ShowPanel(GameObject panel)
+    {
+        StarsPanel.SetActive(false);
+
+        panel.SetActive(true);
+    }
+
     void Start()
     {
+        ShowPanel(StarsPanel);
+
         //And the player should see the constellation immediately
         SetupConstellations();
 
         //the game should start at Lion, with 5 lives, fresh at no constellations done,
         //the timer is at 30 seconds counting down, and the round has just begun
         currentConstellationIndex = 0;
-        completedConstellations = 0;
+        roundOver = false;
 
         //show the correct constellation
         LoadConstellation(currentConstellationIndex);
-}
+    }
 
     void Update()
     {
+        if(roundOver)
+        {
+            return;
+        }
+
         bool allConnected = true;
+
         foreach(LineSystem line in currentLines)
         {
             if(!line.isConnected)
@@ -85,51 +102,67 @@ public class ConnectStarsQuest : MonoBehaviour
                 break;
             }
         }
+
+        //once completed, close panel and go back to game
+        if(!roundOver && allConnected)
+        {
+            roundOver = true;
+
+        }
     }
 
     //These are the coordinates that will show on the screen for the player.
+    // Code is 1074, which has 11 lines and 14 stars total
     void SetupConstellations()
     {
         constellations = new ConstellationData[1];
 
         constellations[0] = new ConstellationData();
-        constellations[0].name = "Code";
+        constellations[0].name = "4DigCode";
         constellations[0].stars = new StarData[]
         {
-            new StarData{position = new Vector2(300,250), starID = 0},//sickle
-            new StarData{position = new Vector2(200,300), starID = 1},
-            new StarData{position = new Vector2(100,200), starID = 2},
-            new StarData{position = new Vector2(100,0), starID = 3},
+            new StarData{position = new Vector2(-700,300), starID = 0},//Number 1
+            new StarData{position = new Vector2(-700,-300), starID = 1},
 
-            new StarData{position = new Vector2(-600,-100), starID = 4},
-            new StarData{position = new Vector2(-800,-270), starID = 5},//denebola
-            new StarData{position = new Vector2(-500,-200), starID = 6},
-            new StarData{position = new Vector2(250,-200), starID = 7},//regulus
-            new StarData{position = new Vector2(200,-100), starID = 8}
+            new StarData{position = new Vector2(-400,300), starID = 2},//Number 0
+            new StarData{position = new Vector2(-100,300), starID = 3},
+            new StarData{position = new Vector2(-400,-300), starID = 4},
+            new StarData{position = new Vector2(-100,-300), starID = 5},
+
+            new StarData{position = new Vector2(100,300), starID = 6},//Number 7
+            new StarData{position = new Vector2(400,300), starID = 7},
+            new StarData{position = new Vector2(400,-300), starID = 8},
+
+            new StarData{position = new Vector2(600,300), starID = 9},//Number 4
+            new StarData{position = new Vector2(600,100), starID = 10},
+            new StarData{position = new Vector2(800,300), starID = 11},
+            new StarData{position = new Vector2(800,100), starID = 12},
+            new StarData{position = new Vector2(800,-300), starID = 13}
         };
 
         // Connect the stars for guidance
         constellations[0].connections = new ConnectionData[]
         {
             new ConnectionData{starA = 0, starB = 1},
-            new ConnectionData{starA = 1, starB = 2},
             new ConnectionData{starA = 2, starB = 3},
-            new ConnectionData{starA = 3, starB = 4},
+            new ConnectionData{starA = 2, starB = 4},
             new ConnectionData{starA = 4, starB = 5},
-            new ConnectionData{starA = 5, starB = 6},
+            new ConnectionData{starA = 3, starB = 5},
             new ConnectionData{starA = 6, starB = 7},
             new ConnectionData{starA = 7, starB = 8},
-            new ConnectionData{starA = 3, starB = 8},
-            new ConnectionData{starA = 4, starB = 6}
+            new ConnectionData{starA = 9, starB = 10},
+            new ConnectionData{starA = 10, starB = 12},
+            new ConnectionData{starA = 11, starB = 12},
+            new ConnectionData{starA = 12, starB = 13},
         };
     }
-
-    private string[] constellationFunFacts;
 
     //show the constellation to the player
     void LoadConstellation(int index)
     {
         ClearCurrentConstellation();
+
+        roundOver = false;
 
         ConstellationData constellation = constellations[index];
         
@@ -167,7 +200,6 @@ public class ConnectStarsQuest : MonoBehaviour
             
             currentLines.Add(lineScript);
         }
-
     }
 
     //once the player has finished connecting and ready to move to the next constellation,
