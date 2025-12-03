@@ -23,7 +23,7 @@ public class StarSystem : MonoBehaviour, IPointerClickHandler
 
     public Color normalColor = Color.white;
     public Color selectedColor = Color.yellow;
-    public float selectedScale = 1.3f;
+    public float selectedScale;
     
     private Image starImage;
     private Vector3 originalScale;
@@ -33,6 +33,7 @@ public class StarSystem : MonoBehaviour, IPointerClickHandler
     void Start()
     {
         starImage = GetComponent<Image>();
+
         originalScale = transform.localScale;
         SetSelected(false);
     }

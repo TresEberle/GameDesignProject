@@ -47,6 +47,9 @@ ExportedObj/
 *.suo
 *.tmp
 *.user
+*.gbc
+*.obj
+*.cache
 *.userprefs
 *.pidb
 *.booproj
