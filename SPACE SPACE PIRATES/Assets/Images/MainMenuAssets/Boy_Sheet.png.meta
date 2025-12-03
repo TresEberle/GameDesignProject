@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: fd8cda74bf485d04fb13954192476095
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6416068367545091011
+    second: Boy_Sheet_0
+  - first:
+      213: -1337165322722136315
+    second: Boy_Sheet_1
+  - first:
+      213: 500842299053299010
+    second: Boy_Sheet_2
+  - first:
+      213: 3301449585838563948
+    second: Boy_Sheet_3
+  - first:
+      213: 8434837010221408669
+    second: Boy_Sheet_4
+  - first:
+      213: -2150206279061238930
+    second: Boy_Sheet_5
+  - first:
+      213: 4679102266953554543
+    second: Boy_Sheet_6
+  - first:
+      213: -6007750023184073546
+    second: Boy_Sheet_7
+  - first:
+      213: 7027229775776580268
+    second: Boy_Sheet_8
+  - first:
+      213: -4427590739820519309
+    second: Boy_Sheet_9
+  - first:
+      213: -4162256403093621367
+    second: Boy_Sheet_10
+  - first:
+      213: -624331305652321319
+    second: Boy_Sheet_11
+  - first:
+      213: 1084432137227719018
+    second: Boy_Sheet_12
+  - first:
+      213: -7683518616751480487
+    second: Boy_Sheet_13
+  - first:
+      213: 3864189594611411626
+    second: Boy_Sheet_14
+  - first:
+      213: 8287431891312404843
+    second: Boy_Sheet_15
+  - first:
+      213: 7642250867827739962
+    second: Boy_Sheet_16
+  - first:
+      213: 1755056340130895162
+    second: Boy_Sheet_17
+  - first:
+      213: 1488957527219303255
+    second: Boy_Sheet_18
+  - first:
+      213: 1098133913100178099
+    second: Boy_Sheet_19
+  - first:
+      213: -7647307512472281864
+    second: Boy_Sheet_20
+  - first:
+      213: -6260292271090820748
+    second: Boy_Sheet_21
+  - first:
+      213: -3811756916980071724
+    second: Boy_Sheet_22
+  - first:
+      213: -3988594061661148688
+    second: Boy_Sheet_23
+  - first:
+      213: -6342111647917638465
+    second: Boy_Sheet_24
+  - first:
+      213: 8700421084046168847
+    second: Boy_Sheet_25
+  - first:
+      213: 7964150654868995617
+    second: Boy_Sheet_26
+  - first:
+      213: -563864216758633851
+    second: Boy_Sheet_27
+  - first:
+      213: -1390674457023729796
+    second: Boy_Sheet_28
+  - first:
+      213: -9132201391328368085
+    second: Boy_Sheet_29
+  - first:
+      213: 46706344566843421
+    second: Boy_Sheet_30
+  - first:
+      213: 8048567287450368949
+    second: Boy_Sheet_31
+  - first:
+      213: -1848549700307394460
+    second: Boy_Sheet_32
+  - first:
+      213: 7138552707725841092
+    second: Boy_Sheet_33
+  - first:
+      213: -5697226841164829049
+    second: Boy_Sheet_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boy_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 236
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cbad140db85f6a0800000000000000
+      internalID: -6416068367545091011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 236
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f2d2d393f617de0800000000000000
+      internalID: -1337165322722136315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 236
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245df8bda6953f600800000000000000
+      internalID: 500842299053299010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 236
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62a4cf08ea11dd20800000000000000
+      internalID: 3301449585838563948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 236
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91a094329f8e0570800000000000000
+      internalID: 8434837010221408669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 236
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b8dbe08cee822e0800000000000000
+      internalID: -2150206279061238930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 190
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6add7988b28fe040800000000000000
+      internalID: 4679102266953554543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 190
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcb4c03f2f20aca0800000000000000
+      internalID: -6007750023184073546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 190
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2063ccf3cb58160800000000000000
+      internalID: 7027229775776580268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 190
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37060363ea90e82c0800000000000000
+      internalID: -4427590739820519309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 190
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985728d9ad1bc36c0800000000000000
+      internalID: -4162256403093621367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 190
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d300704cfde557f0800000000000000
+      internalID: -624331305652321319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 144
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61d972884dac0f00800000000000000
+      internalID: 1084432137227719018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 144
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9516d6fe688ae5590800000000000000
+      internalID: -7683518616751480487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 144
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaae29386fb50a530800000000000000
+      internalID: 3864189594611411626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 144
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b696bed756fd20370800000000000000
+      internalID: 8287431891312404843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 144
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d0b458caabe0a60800000000000000
+      internalID: 7642250867827739962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 144
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a359c4251763b5810800000000000000
+      internalID: 1755056340130895162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753fc8f6bf6d9a410800000000000000
+      internalID: 1488957527219303255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 144
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2552ec9fa5d3f00800000000000000
+      internalID: 1098133913100178099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 98
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcd9e6a55e4fd590800000000000000
+      internalID: -7647307512472281864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 98
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479128f0959fe19a0800000000000000
+      internalID: -6260292271090820748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 98
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2c341974be91bc0800000000000000
+      internalID: -3811756916980071724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 98
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9647955daa5a8c0800000000000000
+      internalID: -3988594061661148688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 98
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc7004ee0b4cf7a0800000000000000
+      internalID: -6342111647917638465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 52
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0314ee01ea1eb870800000000000000
+      internalID: 8700421084046168847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 52
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e392123d8568e60800000000000000
+      internalID: 7964150654868995617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 52
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a3c8a7b70cc28f0800000000000000
+      internalID: -563864216758633851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 52
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f24ee03f453bce0800000000000000
+      internalID: -1390674457023729796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 6
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a6b841837e34180800000000000000
+      internalID: -9132201391328368085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 6
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18e9a44c2fe5a000800000000000000
+      internalID: 46706344566843421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 6
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbfe470e4142bf60800000000000000
+      internalID: 8048567287450368949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 6
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460e58377d1a856e0800000000000000
+      internalID: -1848549700307394460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 6
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2d662bddb311360800000000000000
+      internalID: 7138552707725841092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 3
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78eac878f526fe0b0800000000000000
+      internalID: -5697226841164829049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boy_Sheet_0: -6416068367545091011
+      Boy_Sheet_1: -1337165322722136315
+      Boy_Sheet_10: -4162256403093621367
+      Boy_Sheet_11: -624331305652321319
+      Boy_Sheet_12: 1084432137227719018
+      Boy_Sheet_13: -7683518616751480487
+      Boy_Sheet_14: 3864189594611411626
+      Boy_Sheet_15: 8287431891312404843
+      Boy_Sheet_16: 7642250867827739962
+      Boy_Sheet_17: 1755056340130895162
+      Boy_Sheet_18: 1488957527219303255
+      Boy_Sheet_19: 1098133913100178099
+      Boy_Sheet_2: 500842299053299010
+      Boy_Sheet_20: -7647307512472281864
+      Boy_Sheet_21: -6260292271090820748
+      Boy_Sheet_22: -3811756916980071724
+      Boy_Sheet_23: -3988594061661148688
+      Boy_Sheet_24: -6342111647917638465
+      Boy_Sheet_25: 8700421084046168847
+      Boy_Sheet_26: 7964150654868995617
+      Boy_Sheet_27: -563864216758633851
+      Boy_Sheet_28: -1390674457023729796
+      Boy_Sheet_29: -9132201391328368085
+      Boy_Sheet_3: 3301449585838563948
+      Boy_Sheet_30: 46706344566843421
+      Boy_Sheet_31: 8048567287450368949
+      Boy_Sheet_32: -1848549700307394460
+      Boy_Sheet_33: 7138552707725841092
+      Boy_Sheet_34: -5697226841164829049
+      Boy_Sheet_4: 8434837010221408669
+      Boy_Sheet_5: -2150206279061238930
+      Boy_Sheet_6: 4679102266953554543
+      Boy_Sheet_7: -6007750023184073546
+      Boy_Sheet_8: 7027229775776580268
+      Boy_Sheet_9: -4427590739820519309
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

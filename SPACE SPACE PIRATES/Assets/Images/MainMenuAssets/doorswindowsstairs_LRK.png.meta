@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: aba03aab7db3574489e7b36c4c2053c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5033734314402097718
+    second: doorswindowsstairs_LRK_0
+  - first:
+      213: 2147097318177001837
+    second: doorswindowsstairs_LRK_1
+  - first:
+      213: 1399144843322656167
+    second: doorswindowsstairs_LRK_2
+  - first:
+      213: -5830905831007847156
+    second: doorswindowsstairs_LRK_3
+  - first:
+      213: -2950546034886173923
+    second: doorswindowsstairs_LRK_4
+  - first:
+      213: 6977152435202793498
+    second: doorswindowsstairs_LRK_5
+  - first:
+      213: 3551022305372473683
+    second: doorswindowsstairs_LRK_6
+  - first:
+      213: -7389095994968766788
+    second: doorswindowsstairs_LRK_7
+  - first:
+      213: 2324276202490247826
+    second: doorswindowsstairs_LRK_8
+  - first:
+      213: -1100818608166262719
+    second: doorswindowsstairs_LRK_9
+  - first:
+      213: 6363406963073727976
+    second: doorswindowsstairs_LRK_10
+  - first:
+      213: -3258737887251797476
+    second: doorswindowsstairs_LRK_11
+  - first:
+      213: -7854512474916631153
+    second: doorswindowsstairs_LRK_12
+  - first:
+      213: -1673218221864586726
+    second: doorswindowsstairs_LRK_13
+  - first:
+      213: -3051950854515705968
+    second: doorswindowsstairs_LRK_14
+  - first:
+      213: -4575345065689017067
+    second: doorswindowsstairs_LRK_15
+  - first:
+      213: -4840472021220259004
+    second: doorswindowsstairs_LRK_16
+  - first:
+      213: 3324158035041205572
+    second: doorswindowsstairs_LRK_17
+  - first:
+      213: -913391702326162383
+    second: doorswindowsstairs_LRK_18
+  - first:
+      213: -8642344681076148792
+    second: doorswindowsstairs_LRK_19
+  - first:
+      213: -1673960727219562625
+    second: doorswindowsstairs_LRK_20
+  - first:
+      213: -4114987616715278555
+    second: doorswindowsstairs_LRK_21
+  - first:
+      213: 5168225278290576655
+    second: doorswindowsstairs_LRK_22
+  - first:
+      213: 5125987855560838428
+    second: doorswindowsstairs_LRK_23
+  - first:
+      213: 5978319566931842390
+    second: doorswindowsstairs_LRK_24
+  - first:
+      213: -4381486862201480264
+    second: doorswindowsstairs_LRK_25
+  - first:
+      213: -6801004538892331373
+    second: doorswindowsstairs_LRK_26
+  - first:
+      213: 2711127156437499065
+    second: doorswindowsstairs_LRK_27
+  - first:
+      213: 6991792208290978905
+    second: doorswindowsstairs_LRK_28
+  - first:
+      213: -7224587006920646916
+    second: doorswindowsstairs_LRK_29
+  - first:
+      213: -3615622431562550021
+    second: doorswindowsstairs_LRK_30
+  - first:
+      213: -1244927597907728791
+    second: doorswindowsstairs_LRK_31
+  - first:
+      213: 5199439713723582005
+    second: doorswindowsstairs_LRK_32
+  - first:
+      213: -1158197368191566154
+    second: doorswindowsstairs_LRK_33
+  - first:
+      213: 3729067735514812918
+    second: doorswindowsstairs_LRK_34
+  - first:
+      213: 3077246969039944197
+    second: doorswindowsstairs_LRK_35
+  - first:
+      213: -3804314350930309340
+    second: doorswindowsstairs_LRK_36
+  - first:
+      213: 7183437242396624407
+    second: doorswindowsstairs_LRK_37
+  - first:
+      213: 2608552643372293585
+    second: doorswindowsstairs_LRK_38
+  - first:
+      213: 1804764854623836953
+    second: doorswindowsstairs_LRK_39
+  - first:
+      213: 5107132361891938133
+    second: doorswindowsstairs_LRK_40
+  - first:
+      213: -6505389488528624948
+    second: doorswindowsstairs_LRK_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 191
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac55e589f45942ab0800000000000000
+      internalID: -5033734314402097718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 191
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61522492a50ccd10800000000000000
+      internalID: 2147097318177001837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 191
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5019f62d2ca6310800000000000000
+      internalID: 1399144843322656167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 188
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0df5084a06741fa0800000000000000
+      internalID: -5830905831007847156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 208
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b1c21930e8d07d0800000000000000
+      internalID: -2950546034886173923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 176
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10a30c5c23d3d060800000000000000
+      internalID: 6977152435202793498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 172
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359073df8f3c74130800000000000000
+      internalID: 3551022305372473683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 172
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb600a87758a47990800000000000000
+      internalID: -7389095994968766788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 172
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a335144ec714020800000000000000
+      internalID: 2324276202490247826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 172
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1482c1aee4b19b0f0800000000000000
+      internalID: -1100818608166262719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 175
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edb14b0bec5f4850800000000000000
+      internalID: 6363406963073727976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_11
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 175
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1aef363823a6c2d0800000000000000
+      internalID: -3258737887251797476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_12
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 175
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d48b0e48a2ff290800000000000000
+      internalID: -7854512474916631153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_13
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 175
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12fc0e64e887c8e0800000000000000
+      internalID: -1673218221864586726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 111
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09734a42eda45a5d0800000000000000
+      internalID: -3051950854515705968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 111
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51515ca67eb1180c0800000000000000
+      internalID: -4575345065689017067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 111
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b03f5b75033dcb0800000000000000
+      internalID: -4840472021220259004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 108
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d34e7ee18c12e20800000000000000
+      internalID: 3324158035041205572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_18
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 128
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c4f0a061bf253f0800000000000000
+      internalID: -913391702326162383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 96
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c538f93d49301880800000000000000
+      internalID: -8642344681076148792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_20
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 92
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f779f1e6695e4c8e0800000000000000
+      internalID: -1673960727219562625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_21
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 92
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527fd829090a4e6c0800000000000000
+      internalID: -4114987616715278555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 92
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0544b7128939b740800000000000000
+      internalID: 5168225278290576655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 92
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d8ba5cbca232740800000000000000
+      internalID: 5125987855560838428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_24
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 95
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6555dbcb8f147f250800000000000000
+      internalID: 5978319566931842390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_25
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 95
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb9076b9e4d133c0800000000000000
+      internalID: -4381486862201480264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_26
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 95
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396d087b76afd91a0800000000000000
+      internalID: -6801004538892331373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_27
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 95
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc3f5cd8cbdf9520800000000000000
+      internalID: 2711127156437499065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 31
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c178628f5d70160800000000000000
+      internalID: 6991792208290978905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 31
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe979b056c1dbb90800000000000000
+      internalID: -7224587006920646916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 31
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4b7cc0e8ab2ddc0800000000000000
+      internalID: -3615622431562550021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 28
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96621a312f029bee0800000000000000
+      internalID: -1244927597907728791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_32
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 48
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5368d8f2fde182840800000000000000
+      internalID: 5199439713723582005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_33
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 16
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be362941a14defe0800000000000000
+      internalID: -1158197368191566154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_34
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 12
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f11bb6195f40c330800000000000000
+      internalID: 3729067735514812918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_35
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 12
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50af5cb70d394ba20800000000000000
+      internalID: 3077246969039944197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_36
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 12
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fc0e2014c543bc0800000000000000
+      internalID: -3804314350930309340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_37
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 12
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716cc5bcc12b0b360800000000000000
+      internalID: 7183437242396624407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_38
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 15
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd9c16fec0733420800000000000000
+      internalID: 2608552643372293585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_39
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 15
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b96feb210db0910800000000000000
+      internalID: 1804764854623836953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_40
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 15
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f787b03dd20e640800000000000000
+      internalID: 5107132361891938133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorswindowsstairs_LRK_41
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 15
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2f0ba2ab638b5a0800000000000000
+      internalID: -6505389488528624948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      doorswindowsstairs_LRK_0: -5033734314402097718
+      doorswindowsstairs_LRK_1: 2147097318177001837
+      doorswindowsstairs_LRK_10: 6363406963073727976
+      doorswindowsstairs_LRK_11: -3258737887251797476
+      doorswindowsstairs_LRK_12: -7854512474916631153
+      doorswindowsstairs_LRK_13: -1673218221864586726
+      doorswindowsstairs_LRK_14: -3051950854515705968
+      doorswindowsstairs_LRK_15: -4575345065689017067
+      doorswindowsstairs_LRK_16: -4840472021220259004
+      doorswindowsstairs_LRK_17: 3324158035041205572
+      doorswindowsstairs_LRK_18: -913391702326162383
+      doorswindowsstairs_LRK_19: -8642344681076148792
+      doorswindowsstairs_LRK_2: 1399144843322656167
+      doorswindowsstairs_LRK_20: -1673960727219562625
+      doorswindowsstairs_LRK_21: -4114987616715278555
+      doorswindowsstairs_LRK_22: 5168225278290576655
+      doorswindowsstairs_LRK_23: 5125987855560838428
+      doorswindowsstairs_LRK_24: 5978319566931842390
+      doorswindowsstairs_LRK_25: -4381486862201480264
+      doorswindowsstairs_LRK_26: -6801004538892331373
+      doorswindowsstairs_LRK_27: 2711127156437499065
+      doorswindowsstairs_LRK_28: 6991792208290978905
+      doorswindowsstairs_LRK_29: -7224587006920646916
+      doorswindowsstairs_LRK_3: -5830905831007847156
+      doorswindowsstairs_LRK_30: -3615622431562550021
+      doorswindowsstairs_LRK_31: -1244927597907728791
+      doorswindowsstairs_LRK_32: 5199439713723582005
+      doorswindowsstairs_LRK_33: -1158197368191566154
+      doorswindowsstairs_LRK_34: 3729067735514812918
+      doorswindowsstairs_LRK_35: 3077246969039944197
+      doorswindowsstairs_LRK_36: -3804314350930309340
+      doorswindowsstairs_LRK_37: 7183437242396624407
+      doorswindowsstairs_LRK_38: 2608552643372293585
+      doorswindowsstairs_LRK_39: 1804764854623836953
+      doorswindowsstairs_LRK_4: -2950546034886173923
+      doorswindowsstairs_LRK_40: 5107132361891938133
+      doorswindowsstairs_LRK_41: -6505389488528624948
+      doorswindowsstairs_LRK_5: 6977152435202793498
+      doorswindowsstairs_LRK_6: 3551022305372473683
+      doorswindowsstairs_LRK_7: -7389095994968766788
+      doorswindowsstairs_LRK_8: 2324276202490247826
+      doorswindowsstairs_LRK_9: -1100818608166262719
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

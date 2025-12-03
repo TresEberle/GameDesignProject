@@ -91,7 +91,7 @@ MonoBehaviour:
   dimColor: {r: 1, g: 1, b: 1, a: 0.3}
   glowColor: {r: 0, g: 0, b: 1, a: 1}
   dimHeight: 5
-  glowHeight: 15
+  glowHeight: 10
   isConnected: 0
   starA: 0
   starB: 0
