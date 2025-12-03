@@ -32,6 +32,9 @@ public class Player : MonoBehaviour
     public Vector2 moveInput;
     [Space]
 
+    [Header("Death")]
+    public GameManager gameManager;
+
 
     public bool isInMenu = true;
 
@@ -134,6 +137,14 @@ public class Player : MonoBehaviour
     {
         //Gizmos.DrawLine(transform.position, transform.position + new Vector3(0, -groundCheckDistance));
         //Gizmos.DrawLine(transform.position, transform.position + new Vector3(wallCheckDistance * facingDir, 0));
+    }
+
+    void Die()
+    {
+        if(gameManager != null)
+        {
+            gameManager.showScene();
+        }
     }
 
 }
