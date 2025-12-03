@@ -90,6 +90,11 @@ public class Player : MonoBehaviour
     private void Update()
     {
         stateMachine.UpdateActiveState();
+
+        if(health <= 0)
+        {
+            Die();
+        }
     }
 
     public void SetVelocity(float xVelocity, float yVelocity) {
@@ -116,7 +121,7 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(float amount)
     {
-        if (health <= 0f) return;
+        if (health <= 0f) Die();
         health = Mathf.Max(0f, health - amount);
     }
     
@@ -129,7 +134,7 @@ public class Player : MonoBehaviour
     
     public void Heal(float amount)
     {
-        if (health <= 0f) return;
+        if (health <= 0f) Die();
         health = Mathf.Min(maxHealth, health + amount);
     }
 
