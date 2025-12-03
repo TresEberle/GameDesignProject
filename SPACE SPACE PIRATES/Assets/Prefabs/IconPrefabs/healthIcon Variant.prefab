@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &3000115224201309605
+--- !u!1001 &2777416365715867244
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 27717774228235602, guid: e6c5138da541b4a308442da592696c30, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 5013620376876505204, guid: ca76dac5f9e0044cd89abc0fc15ac3a8, type: 3}
+      objectReference: {fileID: -5323616073527563636, guid: 518af004b3a118947b07d8edf645ddc1, type: 3}
     - target: {fileID: 1605817791807952571, guid: e6c5138da541b4a308442da592696c30, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -92,9 +92,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5962952429849770651, guid: e6c5138da541b4a308442da592696c30, type: 3}
+      propertyPath: ID
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7257642373716886072, guid: e6c5138da541b4a308442da592696c30, type: 3}
       propertyPath: m_Name
-      value: BlickyItem Variant
+      value: healthIcon Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

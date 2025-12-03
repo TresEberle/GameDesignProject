@@ -8,9 +8,27 @@ public class ItemDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     Transform originalParent;
     CanvasGroup canvasGroup;
 
+    [Header("ID")]
+    public int ID;
+
+    private ItemDictionary itemDictionary;
+
+
     void Start()
     {
         canvasGroup = GetComponent<CanvasGroup>();
+        itemDictionary = FindObjectOfType<ItemDictionary>();  
+
+    }
+    public void UseItem()
+    {
+        if (itemDictionary == null)
+        {
+            Debug.LogWarning("ItemDragHandler: No ItemDictionary found in scene.");
+            return;
+        }
+
+        itemDictionary.UseItem(ID);
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -65,4 +83,6 @@ public class ItemDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
         GetComponent<RectTransform>().anchoredPosition = Vector2.zero; //Center
     }
+
+
 }

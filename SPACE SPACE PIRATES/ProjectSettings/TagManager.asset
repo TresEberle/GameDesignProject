@@ -18,6 +18,7 @@ TagManager:
   - ToShip
   - Enemy
   - spawn01
+  - Wall
   layers:
   - Default
   - TransparentFX
