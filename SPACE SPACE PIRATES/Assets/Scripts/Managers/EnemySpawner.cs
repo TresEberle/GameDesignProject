@@ -1,7 +1,9 @@
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -28,32 +30,65 @@ public class EnemySpawner : MonoBehaviour
 
     private int enemiesToSpawn;
     private int enemiesAlive;
-    private bool isSpawning;
+    public bool isSpawning;
     private bool halt;
-    private static EnemySpawner _instance;
-    void Awake() { _instance = this; }
+    public static EnemySpawner _instance { get; private set; }
+
+    public List<EnemyHealth> enemiesSpawning = new List<EnemyHealth>();
+
+    private void Awake() 
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            _instance = this;
+        }
+    }
 
     void Start()
     {
-        StartCoroutine(StartNextRound());
+        
     }
+
+
+    private void Update()
+    {
+
+
+
+    }
+
+    public void startSpawningEnemiesForSequence(GameState state) {
+        StartCoroutine(StartNextRound(state));
+
+    }
+
 
     public static void NotifyEnemyKilled()
     {
         if (_instance == null) return;
         _instance.OnEnemyKilled();
+
     }
 
     void OnEnemyKilled()
     {
-        enemiesAlive = Mathf.Max(0, enemiesAlive - 1);
-        if (enemiesAlive == 0 && !isSpawning && !halt)
-        {
-            currentRound++;
+        if (GameManager.instance.getState() == GameState.Sequence01) {
+            EnemiesAliveCount(GameState.Sequence02);
         }
+
+
+        //enemiesAlive = Mathf.Max(0, enemiesAlive - 1);
+        //if (enemiesAlive == 0 && !isSpawning && !halt)
+        //{
+
+        //}
     }
 
-     IEnumerator StartNextRound()
+     IEnumerator StartNextRound(GameState state)
     {
         if (halt) yield break;
 
@@ -74,22 +109,34 @@ public class EnemySpawner : MonoBehaviour
         }
 
         if (countdownText) countdownText.text = "";
-        yield return StartCoroutine(SpawnRoutine());
+        yield return StartCoroutine(SpawnRoutine(state));
         Debug.Log($"[Spawner] Round {currentRound} → Spawning {enemiesToSpawn}");
         
     }
 
-    IEnumerator SpawnRoutine()
+
+
+    IEnumerator SpawnRoutine(GameState state)
     {
-        isSpawning = true;
+        //isSpawning = true;  // Gamemanager can decides to spawn enemies
 
-        for (int i = 0; i < enemiesToSpawn; i++)
-        {
-            SpawnOne();
-            yield return new WaitForSeconds(spawnInterval);
+        if (isSpawning == true) {
+            
+            for (int i = 0; i < enemiesToSpawn; i++)
+            {
+                CameraShake.instance.ShakeCamera(5f, 2f); //camera shaker per spawn
+                SpawnOne();
+                yield return new WaitForSeconds(spawnInterval);
+                
+
+            }
+
         }
-
+        
         isSpawning = false;
+
+  
+
     }
 
 
@@ -102,7 +149,10 @@ public class EnemySpawner : MonoBehaviour
         }
 
         var p = spawnPoints[Random.Range(0, spawnPoints.Length)];
-        Instantiate(enemyPrefab, p.position, Quaternion.identity);
+        var x =  Instantiate(enemyPrefab, p.position, Quaternion.identity);
+
+        enemiesSpawning.Add(x);
+        
     }
 
     public void HaltAll()
@@ -111,4 +161,16 @@ public class EnemySpawner : MonoBehaviour
         StopAllCoroutines();
         if (countdownText) countdownText.text = "";
     }
+
+    public void EnemiesAliveCount(GameState state) {
+        Debug.Log("dead");
+        if (enemiesSpawning.Count == 0) {
+            Debug.Log("NEXT STATE");
+            GameManager.instance.UpdateGameState(state);
+            GameManager.instance.UpdateGameState(state);
+        }
+
+    }
+
+
 }

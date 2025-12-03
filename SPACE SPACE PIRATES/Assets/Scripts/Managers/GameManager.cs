@@ -32,6 +32,11 @@ public class GameManager : MonoBehaviour
     [Header("TO DISABLE MAIN MENU")]
     public GameObject MENU;
 
+    [Header("Captain")]
+    public GameObject CaptainScream_seq2;
+    public GameObject CaptainScream_seq3;
+
+
     [Header("Current Respawn")]
     private GameObject currentSpawn;
     [Header("Spawns List")] // this is give to the handler to know where to respwan player,
@@ -39,7 +44,11 @@ public class GameManager : MonoBehaviour
     public GameObject seq01Spawn;
     public GameObject seq02Spawn;
 
+    [Header("UI Pressed")]
+    public bool isUIPressed;
 
+    [Header("Cooking Minigame")]
+    public GameObject seq03;
 
     [Header("Current Transition Picture")]
     public GameObject pic;
@@ -83,22 +92,44 @@ public class GameManager : MonoBehaviour
 
         switch (newState) {
             case GameState.start:
-                
+                setState(GameState.start);
+                isUIPressed = false; // allows for system to know if player has clicked a UI button
+
+                // if not disabled
+                CaptainScream_seq2.SetActive(false); 
+                CaptainScream_seq3.SetActive(false);
+                seq03.SetActive(false);//cooking minigame
                 break;
             case GameState.Sequence01: //killing the crabs and meeting the captain
-
+                setState(GameState.Sequence01);
+                CaptainScream_seq2.SetActive(true);
+                EnemySpawner._instance.isSpawning = false;
                 HandleFirstSequence();
                 break;
             case GameState.Sequence02:
+                setState(GameState.Sequence02);
+                CaptainScream_seq3.SetActive(true);
                 HandleSecondSequence();
                 break;
             case GameState.Sequence03:
+                setState(GameState.Sequence03);
+                HandleThirdSequence();
+
                 break;
             case GameState.Sequence04:
+                setState(GameState.Sequence04);
+                HandleFourthSequence();
+
                 break;
             case GameState.Sequence05:
+                setState(GameState.Sequence05);
+                HandleFifthSequence();
+
                 break;
             case GameState.Sequence06:
+                setState(GameState.Sequence06);
+                HandleSixthSequence();
+
                 break;
             case GameState.end:
                 break;
@@ -114,28 +145,54 @@ public class GameManager : MonoBehaviour
     void HandleFirstSequence()
     {
         MENU.SetActive(false);
+        //intercom captain says to kill the crabs onboard
         MusicManager.instance.UpdateGameMusic(GameMusic.BossCrab);
         PlayTransition();
         // Set spawn to room  (if player dies he can respawn)
         SetSpawnOfPlayer(seq01Spawn);
         TeleportPlayerToRespawnLocation();
-        // to spawn enemy crabs WAVES
-        //intercom captain says to kill the crabs onboard
-        //camera shake is now avaible 
-        // KILL 10 CRABS
+        // to spawn enemy crabs WAVES  //camera shake is now avaible 
+        player.OnDisable();
         // to talk to captain to get more INFO/QUESTS
+
+
     }
+
+    public void playerAllowMovement(GameState state) 
+    {
+        player.OnEnable();
+        EnemySpawner._instance.isSpawning = true;
+        EnemySpawner._instance.startSpawningEnemiesForSequence(state);
+    }
+
+    public void playerAllowMovement()
+    {
+        player.OnEnable();
+
+    }
+
 
     void HandleSecondSequence() {
         SetSpawnOfPlayer(seq02Spawn);
-        // fix pipes? minigame?
-
+        MusicManager.instance.UpdateGameMusic(GameMusic.spaceMusic);
+        //pipes? minigame?
+        //START MINIGAME
+       
+        //Completed Pipes to next state 
+        //SKIPPING FOR NOW
+        GameManager.instance.UpdateGameState(GameState.Sequence03); 
     }
 
     void HandleThirdSequence()
     {
+        seq03.SetActive(true);//cooking minigame
+        MusicManager.instance.UpdateGameMusic(GameMusic.BossCrab);
         // Cooking in pot,
         // TALK TO CHEF
+
+        //START MINIGAME
+        CookingGame.instance.UpdateCookingGame(CookingGameState.Start);
+
         // WEIRD GLOW IN FREEZER
         // TO TELEPORT TO PIRATE LAND
 
@@ -144,11 +201,14 @@ public class GameManager : MonoBehaviour
 
     void HandleFourthSequence()
     {
-      // Talk to strange pirate bird
-      //pirate says to collect starfish 
-      // tell bird you collected the starfish
-      //aslso enemies spawn upon traversing to diff islands,
-      //check the individual island portals to set enemies there 
+        seq03.SetActive(false);//cooking minigame
+        Debug.Log("4TH STATE");
+        MusicManager.instance.UpdateGameMusic(GameMusic.spaceMusic);
+        // Talk to strange pirate bird
+        //pirate says to collect starfish 
+        // tell bird you collected the starfish
+        //aslso enemies spawn upon traversing to diff islands,
+        //check the individual island portals to set enemies there 
 
         //pirate bird says he want to be captain of the world
 
@@ -221,8 +281,14 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void setState(GameState state) {
+        this.State = state;
+   
+    }
 
-
+    public GameState getState() {
+        return State;
+    }
 
 
 }

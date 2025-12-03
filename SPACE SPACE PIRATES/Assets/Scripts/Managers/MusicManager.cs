@@ -75,6 +75,7 @@ public class MusicManager : MonoBehaviour
             case GameMusic.BossParrot:
                 break;
             case GameMusic.spaceMusic:
+                HandleStartMusic();
                 break;
             case GameMusic.PirateMusic:
                 break;
