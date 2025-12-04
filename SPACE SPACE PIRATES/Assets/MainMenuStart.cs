@@ -8,7 +8,7 @@ public class MainMenuStart : MonoBehaviour {
 
     private void Awake()
     {
-        getPlayer = GameObject.FindGameObjectWithTag("player").transform;
+        getPlayer = GameObject.FindGameObjectWithTag("Player").transform;
         playerNextSpawn = GameObject.FindGameObjectWithTag("spawn01").transform;
     }
 

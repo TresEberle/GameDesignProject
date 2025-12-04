@@ -24,6 +24,7 @@ public class smalltoLargeTP : MonoBehaviour
         if (Vector2.Distance(transform.position, other.transform.position) > distance)
         {
             tp.teleportTransition();
+            EnemySpawner._instance.startSpawningEnemiesForSequence(GameState.Sequence05, 3);
             other.transform.position = new Vector2(tp.destination.position.x, tp.destination.position.y);
         }
     }

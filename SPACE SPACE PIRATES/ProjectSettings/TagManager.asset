@@ -19,6 +19,7 @@ TagManager:
   - Enemy
   - spawn01
   - Wall
+  - star
   layers:
   - Default
   - TransparentFX
@@ -55,6 +56,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Decor
+    uniqueID: 3587069763
     locked: 0
   m_RenderingLayers:
   - Default

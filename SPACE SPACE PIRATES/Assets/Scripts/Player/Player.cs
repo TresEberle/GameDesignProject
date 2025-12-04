@@ -2,9 +2,14 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Header("Audio")]
+    [SerializeField] public AudioClip[] star;
+
+
     [Header("Pop Ups?")]
     [SerializeField] public GameObject MenuPanel;
 
+    private HealthBar healthBar;
 
     public PlayerInputSet input { get; private set; }
     public StateMachine stateMachine { get; private set; }
@@ -13,7 +18,10 @@ public class Player : MonoBehaviour
     public PlayerMoveDownState down_moveState { get; private set; }
     public PlayerMoveUpState up_moveState { get; private set; }
 
+    [SerializeField] public GameObject gun;
+    [SerializeField] public GameObject gun2;
 
+    [SerializeField] public GameObject Speak_collider;
 
 
 
@@ -85,16 +93,34 @@ public class Player : MonoBehaviour
     private void Start()
     {
         stateMachine.Intilize(idleState);
+        health = maxHealth;
+
+        healthBar = FindObjectOfType<HealthBar>();
+        if (healthBar != null)
+        {
+        healthBar.SetHealth(health, maxHealth);
+        }
+
     }
 
     private void Update()
     {
         stateMachine.UpdateActiveState();
 
-        if(health <= 0)
-        {
-            Die();
+        /*TELEPORT GUN BACK TO PLAYER 
+        Speak_collider.GetComponent<Transform>().localPosition = new Vector3(0, 0, 0);
+        gun.GetComponent<Transform>().localPosition = new Vector3(0,0,0);
+        GameObject foundObject = GameObject.Find("Gun(Clone)");
+        if (foundObject) {
+            foundObject.GetComponent<Transform>().localPosition = new Vector3(0, 0, 0);
         }
+
+*/
+
+        //if(health <= 0)
+        //{
+        //    Die();
+        //}
     }
 
     public void SetVelocity(float xVelocity, float yVelocity) {
@@ -123,6 +149,10 @@ public class Player : MonoBehaviour
     {
         if (health <= 0f) Die();
         health = Mathf.Max(0f, health - amount);
+
+        if (healthBar != null)
+        healthBar.SetHealth(health, maxHealth);
+
     }
     
     public void Flip()
@@ -136,6 +166,10 @@ public class Player : MonoBehaviour
     {
         if (health <= 0f) Die();
         health = Mathf.Min(maxHealth, health + amount);
+
+        if (healthBar != null)
+        healthBar.SetHealth(health, maxHealth);
+
     }
 
     private void OnDrawGizmos()
@@ -146,10 +180,26 @@ public class Player : MonoBehaviour
 
     void Die()
     {
-        if(gameManager != null)
-        {
+            
             gameManager.showScene();
-        }
+      
     }
+
+
+    // starfishTrigger
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (collision.CompareTag("star"))
+        {
+            Destroy(collision.gameObject);
+            StarfishController.instance.DisplayCurrentStartCount();
+
+        }
+
+
+    }
+
+
 
 }

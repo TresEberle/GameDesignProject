@@ -5,27 +5,16 @@ public class WeaponItem : Item
     [Header("Weapon")]
     public GameObject weaponPrefab; 
 
-    protected override bool ApplyPickup(Collider2D player)
-    {
-        bool added = base.ApplyPickup(player);
+protected override bool ApplyPickup(Collider2D player)
+{
+    // Just add to hotbar/inventory via Item.ApplyPickup
+    bool added = base.ApplyPickup(player);
 
-        // equip weapon on the Player
-        Player playerComp = player.GetComponent<Player>() ?? player.GetComponentInParent<Player>();
-        if (playerComp != null && weaponPrefab != null)
-        {
-            WeaponHolder holder = playerComp.GetComponentInChildren<WeaponHolder>();
-            if (holder != null)
-            {
-                holder.EquipWeapon(weaponPrefab);
-            }
-            else
-            {
-                Debug.LogWarning("WeaponItem: No WeaponHolder found on player.");
-            }
-        }
+    // Equipping will be handled by ItemDictionary.UseItem when the hotbar key is pressed.
 
-        return added;
-    }
+    return added;
+}
+
 
     public override void UseItem()
     {

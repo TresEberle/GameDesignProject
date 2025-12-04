@@ -30,9 +30,32 @@ public class ItemDictionary : MonoBehaviour
             return;
         }
 
-        // Now actually do the effect. Here we just need a switch(int id) case
-        // we just need to come up with some effects and add them to different id's in the switch case
 
+        Debug.Log($"[UseItem] Used item: {entry.itemName} (ID {id})");
+        Debug.Log($"[UseItem] pickupPrefab on entry = {entry.pickupPrefab}");
         Debug.Log($"Used item: {entry.itemName} (ID {id})");
+    
+        WeaponItem weaponPickup = entry.pickupPrefab as WeaponItem;
+        if (weaponPickup != null && weaponPickup.weaponPrefab != null)
+        {
+        Player player = FindObjectOfType<Player>();
+        if (player == null)
+        {
+            Debug.LogWarning("ItemDictionary: No Player found in scene.");
+            return;
+        }
+
+        WeaponHolder holder = player.GetComponentInChildren<WeaponHolder>();
+        if (holder == null)
+        {
+            Debug.LogWarning("ItemDictionary: No WeaponHolder found on Player.");
+            return;
+        }
+        
+        Debug.Log($"[UseItem] Equipping weapon prefab: {weaponPickup.weaponPrefab.name}");
+
+        holder.EquipWeapon(weaponPickup.weaponPrefab);
+        }
+
     }
 }

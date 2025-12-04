@@ -42,7 +42,12 @@ public class EnemyHealth : MonoBehaviour, IDamageable
 
     void Die()
     {
-           if (destroyOnDeath) Destroy(gameObject);
+        if (destroyOnDeath) {
+            EnemySpawner._instance.enemiesSpawning.Remove(this);
+            EnemySpawner.NotifyEnemyKilled();
+            Destroy(gameObject);
+            
+        } 
     }
 
     void OnCollisionStay2D(Collision2D col)

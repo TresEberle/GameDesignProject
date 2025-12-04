@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a633378fd70d1648a469aa705166248, type: 3}
+  m_Name: Captain Dialogue
+  m_EditorClassIdentifier: 
+  npcName: Captain
+  npcPortrait: {fileID: 1919486324624539704, guid: 7c42ed404e8599b45b42ff6d8ce20193, type: 3}
+  dialogueLines:
+  - Hey thankyou for saving the ship, I almost fired you for sleeping late...
+  - Maybe you are due for a promotion?
+  - Before You go Fix my Control System the crabs jumbled the wires
+  typingSpeed: 0.02
+  autoProgressLines: 010100
+  autoProgressDelay: 1
+  voiceSound: {fileID: 8300000, guid: e8f965c63db46754eab6d5bf65a97a57, type: 3}
+  voicePitch: 1

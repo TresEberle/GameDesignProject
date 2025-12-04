@@ -1,6 +1,5 @@
 using UnityEngine;
 using TMPro;
-using Microsoft.Unity.VisualStudio.Editor;
 
 public class CutsceneSpeechManager : MonoBehaviour
 {
