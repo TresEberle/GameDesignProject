@@ -33,6 +33,7 @@ public abstract class PortalLogic
 
     public void teleportTransition() {
         GameManager.instance.animator.SetTrigger("START");
+
     }
 
 

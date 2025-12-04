@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class NPC : MonoBehaviour,Iinteractible
 {
-
     public NPC_Dial dialogueData;
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
@@ -13,6 +12,8 @@ public class NPC : MonoBehaviour,Iinteractible
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
+    private bool isPaused = false;
+   
 
     public bool canInteract()
     {
@@ -21,25 +22,27 @@ public class NPC : MonoBehaviour,Iinteractible
 
     public void Interact()
     {
+        
 
-        if (dialogueData == null || !isDialogueActive) 
+        if (dialogueData.npcName == null) //|| isPaused == true && isDialogueActive == false
         {
-        return;
+            Debug.Log("dialogueData == null || !isDialogueActive");
+            return;
         }
 
 
         if (isDialogueActive)
         {
+            Debug.Log("NextLine();");
             NextLine();
         }
         else 
         {
-        
-        //start
-        StartDialogue();
+            Debug.Log("//start");
+            
+            StartDialogue();
         }
         
-
 
     }
 
@@ -67,10 +70,12 @@ public class NPC : MonoBehaviour,Iinteractible
         isDialogueActive = true;
         dialogueIndex = 0;
 
+        dialoguePanel.SetActive(true);
+
         nameText.SetText(dialogueData.npcName);
         portraitImage.sprite = dialogueData.npcPortrait;
 
-        dialoguePanel.SetActive(true);
+        
         //pause player movement
 
         StartCoroutine(TypeLine());
@@ -100,7 +105,7 @@ public class NPC : MonoBehaviour,Iinteractible
     public void EndDialogue() {
         StopAllCoroutines();
         isDialogueActive = false;
-        dialogueText.SetText("26");
+        dialogueText.SetText("");
         dialoguePanel.SetActive(false);
         //pause pLAYER
     }

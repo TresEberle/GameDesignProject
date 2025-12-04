@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a633378fd70d1648a469aa705166248, type: 3}
-  m_Name: Captain Dialogue
+  m_Name: Chef
   m_EditorClassIdentifier: 
-  npcName: Captain
-  npcPortrait: {fileID: 1919486324624539704, guid: 7c42ed404e8599b45b42ff6d8ce20193, type: 3}
+  npcName: Chef
+  npcPortrait: {fileID: 783951016060943522, guid: 6eb297b1332dee848aebfd72d0042956, type: 3}
   dialogueLines:
-  - Hey thankyou for saving the ship, I almost fired you for sleeping late...
+  - 'Nice Cooking '
   - Maybe you are due for a promotion?
   typingSpeed: 0.02
   autoProgressLines: 0100

@@ -19,6 +19,8 @@ public class InteractionDetector : MonoBehaviour
             IinteractibleRange?.Interact();
         }
 
+ 
+
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -26,8 +28,13 @@ public class InteractionDetector : MonoBehaviour
         if (collision.TryGetComponent(out Iinteractible interactable) && interactable.canInteract()) {
             IinteractibleRange = interactable;
             interactionIcon.SetActive(true);
+            Debug.Log("Interacted With NPC");
+
         }
     }
+
+
+
 
     public void OnTriggerExit2D(Collider2D collision)
     {
@@ -35,6 +42,7 @@ public class InteractionDetector : MonoBehaviour
         {
             IinteractibleRange = null;
             interactionIcon.SetActive(false);
+            Debug.Log("EXITED NPC");
         }
     }
 

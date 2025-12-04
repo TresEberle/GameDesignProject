@@ -6,11 +6,13 @@ public class freezerToPirateShip : MonoBehaviour
     public bool isFreezer;
     public float distance = 0.2f;
 
+
     public To_Teleport tp { get; private set; }
 
     private void Awake()
     {
         tp = new To_Teleport(isFreezer, distance);
+        
 
     }
 
@@ -27,6 +29,9 @@ public class freezerToPirateShip : MonoBehaviour
             tp.teleportTransition();
             other.transform.position = new Vector2(tp.destination.position.x, tp.destination.position.y);
             
+
+
+
         }
     }
 }
