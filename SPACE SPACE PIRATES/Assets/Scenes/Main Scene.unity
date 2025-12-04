@@ -12139,6 +12139,9 @@ MonoBehaviour:
   backgroundMusic:
   - {fileID: 8300000, guid: 9d12bb99354c7e848ba9f70c96ec2288, type: 3}
   - {fileID: 8300000, guid: 7b131bab1996c8140975a1469229e321, type: 3}
+  - {fileID: 8300000, guid: d51a6fb250dce3240b75156a05e0bb6d, type: 3}
+  - {fileID: 8300000, guid: 9a7214219dc161349841530e1d228f0d, type: 3}
+  - {fileID: 8300000, guid: 1a19cc4659f38e94fbb994e51494126d, type: 3}
   audioSource: {fileID: 996906360}
 --- !u!1 &968433676
 GameObject:
