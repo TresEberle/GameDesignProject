@@ -3,6 +3,8 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 // Current Story State
 public enum GameState {
@@ -49,6 +51,14 @@ public class GameManager : MonoBehaviour
 
     [Header("Cooking Minigame")]
     public GameObject seq03;
+    [Header("Buttons")]
+    public Button returntoMenuButton;
+    public Button exitGameButton;
+
+    [Header("Death Scene")]
+    public GameObject deathCanvas;
+    public GameObject scenePanel;
+    public GameObject speechPanel;
 
     [Header("Current Transition Picture")]
     public GameObject pic;
@@ -290,5 +300,25 @@ public class GameManager : MonoBehaviour
         return State;
     }
 
+    // Only show the death scene panels when player is dead:
+    public void showScene()
+    {
+        if(deathCanvas != null)
+        {
+            deathCanvas.SetActive(true);
+        }
+    }
+
+    //when player dies, let them have two options:
+    //go back to menu or exit game
+    public void goToMain()
+    {
+        SceneManager.LoadScene("Main Menu Scene");
+    }
+
+    public void exitGame()
+    {
+        Application.Quit();
+   }
 
 }
