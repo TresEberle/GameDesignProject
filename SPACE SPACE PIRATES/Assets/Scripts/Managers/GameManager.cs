@@ -235,7 +235,7 @@ public class GameManager : MonoBehaviour
     {
         CurrentQuest.SetText("Explore The Weird Area");
         seq03.SetActive(false);//cooking minigame
-        MusicManager.instance.UpdateGameMusic(GameMusic.spaceMusic);
+        MusicManager.instance.UpdateGameMusic(GameMusic.PirateMusic);
         // Talk to strange pirate bird
         //pirate says to collect starfish 
         // tell bird you collected the starfish
@@ -250,6 +250,7 @@ public class GameManager : MonoBehaviour
     void HandleFifthSequence()
     {
         CurrentQuest.SetText("A Portal Spawned?");
+        MusicManager.instance.UpdateGameMusic(GameMusic.BossParrot);
         // When player finds out about the evil bird plans
         // player fights bird boss simialr to mini crab boss
         // bird defeated drops spaceship keys
@@ -258,6 +259,8 @@ public class GameManager : MonoBehaviour
 
     void HandleSixthSequence()
     {
+        MusicManager.instance.UpdateGameMusic(GameMusic.endingMusic);
+
         // Ship Flies Away and kid wakes up
         // end credits
         // change song

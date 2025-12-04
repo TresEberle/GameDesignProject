@@ -66,8 +66,10 @@ public class MusicManager : MonoBehaviour
                 HandleStartMusic();
                 break;
             case GameMusic.dead01:
+                HandleDeadMusic();
                 break;
             case GameMusic.dead02:
+                HandleDeadMusic();
                 break;
             case GameMusic.BossCrab:
                 HandleFight01Music();
@@ -81,6 +83,7 @@ public class MusicManager : MonoBehaviour
                 HandlePirate01Music();
                 break;
             case GameMusic.endingMusic:
+                HandleEndingMusic();
                 break;
 
             default:
@@ -109,9 +112,15 @@ public class MusicManager : MonoBehaviour
 
     }
 
-    public void HandleEndingMusic()
+    public void HandlePirate02Music()
     {
         changeSong(3);
+
+    }
+
+    public void HandleEndingMusic()
+    {
+        changeSong(5);
 
     }
 

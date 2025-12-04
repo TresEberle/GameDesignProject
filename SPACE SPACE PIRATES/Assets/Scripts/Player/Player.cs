@@ -188,7 +188,8 @@ public class Player : MonoBehaviour
     {
             
             gameManager.showScene();
-      
+        MusicManager.instance.UpdateGameMusic(GameMusic.dead01);
+
     }
 
 
