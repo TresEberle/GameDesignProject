@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Header("Audio")]
+    [SerializeField] public AudioClip[] star;
+
+
     [Header("Pop Ups?")]
     [SerializeField] public GameObject MenuPanel;
 
@@ -13,7 +17,10 @@ public class Player : MonoBehaviour
     public PlayerMoveDownState down_moveState { get; private set; }
     public PlayerMoveUpState up_moveState { get; private set; }
 
+    [SerializeField] public GameObject gun;
+    [SerializeField] public GameObject gun2;
 
+    [SerializeField] public GameObject Speak_collider;
 
 
 
@@ -91,6 +98,16 @@ public class Player : MonoBehaviour
     {
         stateMachine.UpdateActiveState();
 
+        //TELEPORT GUN BACK TO PLAYER 
+        Speak_collider.GetComponent<Transform>().localPosition = new Vector3(0, 0, 0);
+        gun.GetComponent<Transform>().localPosition = new Vector3(0,0,0);
+        GameObject foundObject = GameObject.Find("Gun(Clone)");
+        if (foundObject) {
+            foundObject.GetComponent<Transform>().localPosition = new Vector3(0, 0, 0);
+        }
+
+
+
         //if(health <= 0)
         //{
         //    Die();
@@ -150,5 +167,22 @@ public class Player : MonoBehaviour
             gameManager.showScene();
       
     }
+
+
+    // starfishTrigger
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (collision.CompareTag("star"))
+        {
+            Destroy(collision.gameObject);
+            StarfishController.instance.DisplayCurrentStartCount();
+
+        }
+
+
+    }
+
+
 
 }

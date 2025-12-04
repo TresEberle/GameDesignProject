@@ -26,7 +26,9 @@ public class freezerToPirateShip : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, other.transform.position) > distance)
         {
+            EnemySpawner._instance.startSpawningEnemiesForSequence(GameState.Sequence04, 1);
             tp.teleportTransition();
+            GameManager.instance.UpdateGameState(GameState.Sequence04);
             other.transform.position = new Vector2(tp.destination.position.x, tp.destination.position.y);
             
 

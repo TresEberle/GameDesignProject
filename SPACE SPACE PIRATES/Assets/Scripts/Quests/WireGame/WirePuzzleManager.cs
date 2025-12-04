@@ -40,6 +40,6 @@ public class WirePuzzleManager : MonoBehaviour
             playerScript.enabled = true;
 
         // TODO: Hook into quest system here:
-        // QuestManager.Instance.CompleteStep("FixWires");
+        GameManager.instance.UpdateGameState(GameState.Sequence03);
     }
 }

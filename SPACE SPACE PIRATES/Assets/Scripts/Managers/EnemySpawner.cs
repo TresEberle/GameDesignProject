@@ -7,9 +7,14 @@ using UnityEngine.UI;
 
 public class EnemySpawner : MonoBehaviour
 {
+
+    [Header("Location To Set Spawner")]
+    public Transform[] Location;
+
+
     [Header("Spawning")]
 
-    public EnemyHealth enemyPrefab;
+    public EnemyHealth[] enemyPrefab;
     public Transform[] spawnPoints;
 
 
@@ -61,8 +66,11 @@ public class EnemySpawner : MonoBehaviour
 
     }
 
-    public void startSpawningEnemiesForSequence(GameState state) {
-        StartCoroutine(StartNextRound(state));
+    public void startSpawningEnemiesForSequence(GameState state, int location) {
+        isSpawning = true;
+        this.transform.position = Location[location].position;
+        Debug.Log(Location[location].position);
+        StartCoroutine(StartNextRound(state, location));
 
     }
 
@@ -78,6 +86,7 @@ public class EnemySpawner : MonoBehaviour
     {
         if (GameManager.instance.getState() == GameState.Sequence01) {
             EnemiesAliveCount(GameState.Sequence02);
+            GameManager.instance.CurrentQuest.SetText("Go Talk to the Captain");
         }
 
 
@@ -88,7 +97,7 @@ public class EnemySpawner : MonoBehaviour
         //}
     }
 
-     IEnumerator StartNextRound(GameState state)
+     IEnumerator StartNextRound(GameState state, int location)
     {
         if (halt) yield break;
 
@@ -109,14 +118,14 @@ public class EnemySpawner : MonoBehaviour
         }
 
         if (countdownText) countdownText.text = "";
-        yield return StartCoroutine(SpawnRoutine(state));
+        yield return StartCoroutine(SpawnRoutine(state, location));
         Debug.Log($"[Spawner] Round {currentRound} → Spawning {enemiesToSpawn}");
         
     }
 
 
 
-    IEnumerator SpawnRoutine(GameState state)
+    IEnumerator SpawnRoutine(GameState state, int location)
     {
         //isSpawning = true;  // Gamemanager can decides to spawn enemies
 
@@ -125,7 +134,7 @@ public class EnemySpawner : MonoBehaviour
             for (int i = 0; i < enemiesToSpawn; i++)
             {
                 CameraShake.instance.ShakeCamera(5f, 2f); //camera shaker per spawn
-                SpawnOne();
+                SpawnOne(location);
                 yield return new WaitForSeconds(spawnInterval);
                 
 
@@ -140,16 +149,17 @@ public class EnemySpawner : MonoBehaviour
     }
 
 
-    void SpawnOne()
+    void SpawnOne(int location)
     {
-        if (!enemyPrefab || spawnPoints == null || spawnPoints.Length == 0)
+        int i = Random.Range(0, enemyPrefab.Length);
+        if (!enemyPrefab[i] || spawnPoints == null || spawnPoints.Length == 0)
         {
             Debug.LogWarning("[Spawner] Not configured: set prefab and spawn points.");
             return;
         }
-
+        
         var p = spawnPoints[Random.Range(0, spawnPoints.Length)];
-        var x =  Instantiate(enemyPrefab, p.position, Quaternion.identity);
+        var x =  Instantiate(enemyPrefab[i], p.position, Quaternion.identity);
 
         enemiesSpawning.Add(x);
         

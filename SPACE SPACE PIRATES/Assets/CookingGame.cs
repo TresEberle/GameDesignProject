@@ -70,7 +70,7 @@ public class CookingGame : MonoBehaviour
                 randomItemPicker();
                 break;
             case CookingGameState.Done:
-                GameManager.instance.UpdateGameState(GameState.Sequence04);
+                GameManager.instance.CurrentQuest.SetText("Investigate The Freezer Glow");
                 break;
 
 

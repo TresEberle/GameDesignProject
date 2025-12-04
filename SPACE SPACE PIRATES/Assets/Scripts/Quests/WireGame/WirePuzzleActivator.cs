@@ -1,8 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class WirePuzzleActivator : MonoBehaviour
+public class WirePuzzleActivator : MonoBehaviour,Iinteractible
 {
+
+    [Header("playerPrompt")]
+    [SerializeField] public GameObject playerPrompt;
+
     [Header("Wire Puzzle Panel (UI)")]
     public GameObject laserGamePanel;   
 
@@ -11,13 +15,25 @@ public class WirePuzzleActivator : MonoBehaviour
 
     private bool playerInRange;
 
+    public bool canInteract()
+    {
+       return !playerInRange;
+    }
+
+    public void Interact()
+    {
+       
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             playerInRange = true;
+            playerPrompt.SetActive(true);
             // can show a "Press E" prompt here
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -32,6 +48,8 @@ public class WirePuzzleActivator : MonoBehaviour
 
             if (playerScript != null)
                 playerScript.enabled = true; //movement is re-enabled
+
+            playerPrompt.SetActive(false);
         }
     }
 

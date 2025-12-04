@@ -17,8 +17,9 @@ MonoBehaviour:
   dialogueLines:
   - Hey thankyou for saving the ship, I almost fired you for sleeping late...
   - Maybe you are due for a promotion?
+  - Before You go Fix my Control System the crabs jumbled the wires
   typingSpeed: 0.02
-  autoProgressLines: 0100
-  autoProgressDelay: 1.5
+  autoProgressLines: 010100
+  autoProgressDelay: 1
   voiceSound: {fileID: 8300000, guid: e8f965c63db46754eab6d5bf65a97a57, type: 3}
   voicePitch: 1

@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
@@ -24,6 +25,9 @@ public enum GameState {
 
 public class GameManager : MonoBehaviour
 {
+    [Header("Quest Text")]
+    [SerializeField] public TMP_Text CurrentQuest;
+
     [Header("Player")]
     [SerializeField] public Player player;
 
@@ -37,6 +41,15 @@ public class GameManager : MonoBehaviour
     [Header("Captain")]
     public GameObject CaptainScream_seq2;
     public GameObject CaptainScream_seq3;
+    public GameObject CaptainScream_seq4;
+
+    [Header("Stars")]
+    public GameObject stars;
+ 
+
+
+    [Header("Doors")]
+    public GameObject DoorCoverKitchen;
 
 
     [Header("Current Respawn")]
@@ -103,11 +116,16 @@ public class GameManager : MonoBehaviour
         switch (newState) {
             case GameState.start:
                 setState(GameState.start);
+                CurrentQuest.SetText("Finish The Tutorial!");
+
                 isUIPressed = false; // allows for system to know if player has clicked a UI button
 
                 // if not disabled
                 CaptainScream_seq2.SetActive(false); 
                 CaptainScream_seq3.SetActive(false);
+                CaptainScream_seq4.SetActive(false);
+                stars.SetActive(false);
+                DoorCoverKitchen.SetActive(true);
                 seq03.SetActive(false);//cooking minigame
                 break;
             case GameState.Sequence01: //killing the crabs and meeting the captain
@@ -164,6 +182,7 @@ public class GameManager : MonoBehaviour
         // to spawn enemy crabs WAVES  //camera shake is now avaible 
         player.OnDisable();
         // to talk to captain to get more INFO/QUESTS
+        CurrentQuest.SetText("Kill all crabs, or you are fired...");
 
 
     }
@@ -172,7 +191,7 @@ public class GameManager : MonoBehaviour
     {
         player.OnEnable();
         EnemySpawner._instance.isSpawning = true;
-        EnemySpawner._instance.startSpawningEnemiesForSequence(state);
+        EnemySpawner._instance.startSpawningEnemiesForSequence(state,0);
     }
 
     public void playerAllowMovement()
@@ -185,41 +204,44 @@ public class GameManager : MonoBehaviour
     void HandleSecondSequence() {
         SetSpawnOfPlayer(seq02Spawn);
         MusicManager.instance.UpdateGameMusic(GameMusic.spaceMusic);
+        CurrentQuest.SetText("Fix The Captain's Brocken Circuit");
+
         //pipes? minigame?
         //START MINIGAME
-       
         //Completed Pipes to next state 
-        //SKIPPING FOR NOW
-        GameManager.instance.UpdateGameState(GameState.Sequence03); 
+        //GameManager.instance.UpdateGameState(GameState.Sequence03);
+        
+
     }
 
     void HandleThirdSequence()
     {
-        seq03.SetActive(true);//cooking minigame
+        CurrentQuest.SetText("Go find Crew Member Chef");
+        DoorCoverKitchen.SetActive(false);
+        CaptainScream_seq4.SetActive(true);
+        //seq03.SetActive(true);//cooking minigame
         MusicManager.instance.UpdateGameMusic(GameMusic.BossCrab);
         // Cooking in pot,
         // TALK TO CHEF
-
         //START MINIGAME
-        CookingGame.instance.UpdateCookingGame(CookingGameState.Start);
-
+        CookingGame.instance.UpdateCookingGame(CookingGameState.Start);//SKIPPED due to time
         // WEIRD GLOW IN FREEZER
         // TO TELEPORT TO PIRATE LAND
-
+        
     }
 
 
     void HandleFourthSequence()
     {
+        CurrentQuest.SetText("Explore The Weird Area");
         seq03.SetActive(false);//cooking minigame
-        Debug.Log("4TH STATE");
         MusicManager.instance.UpdateGameMusic(GameMusic.spaceMusic);
         // Talk to strange pirate bird
         //pirate says to collect starfish 
         // tell bird you collected the starfish
-        //aslso enemies spawn upon traversing to diff islands,
+        //also enemies spawn upon traversing to diff islands
         //check the individual island portals to set enemies there 
-
+        stars.SetActive(true);
         //pirate bird says he want to be captain of the world
 
     }
@@ -227,6 +249,7 @@ public class GameManager : MonoBehaviour
 
     void HandleFifthSequence()
     {
+        CurrentQuest.SetText("A Portal Spawned?");
         // When player finds out about the evil bird plans
         // player fights bird boss simialr to mini crab boss
         // bird defeated drops spaceship keys

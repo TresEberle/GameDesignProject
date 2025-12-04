@@ -19,6 +19,7 @@ TagManager:
   - Enemy
   - spawn01
   - Wall
+  - star
   layers:
   - Default
   - TransparentFX
