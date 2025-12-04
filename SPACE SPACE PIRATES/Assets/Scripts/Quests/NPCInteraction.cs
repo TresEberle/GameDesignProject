@@ -6,6 +6,15 @@ public class NPCInteraction : MonoBehaviour
     public GameObject dialogueCanvas;   // The canvas to show when interacting
     public KeyCode interactKey = KeyCode.E;
 
+    [Header("Give Quest")]
+    public QuestSystem questSystem;
+    public ConnectStarsQuest starQuest;
+    public string questName = "Connect the Stars";
+    public string questDescr = "Connect the stars to reveal the door code.";
+
+    [Header("Dialogue")]
+    public bool hasGiven = false;
+
     private bool playerInRange = false;
 
     void Start()
@@ -30,6 +39,26 @@ public class NPCInteraction : MonoBehaviour
         {
             bool isActive = dialogueCanvas.activeSelf;
             dialogueCanvas.SetActive(!isActive);
+        }
+    }
+
+    void giveQuest()
+    {
+        if(hasGiven)
+        {
+            return;
+        }
+
+        hasGiven = true;
+
+        if(questSystem != null)
+        {
+            questSystem.addQuest(questName, questDescr);
+        }
+
+        if(starQuest != null)
+        {
+            starQuest.startQuest();
         }
     }
 
