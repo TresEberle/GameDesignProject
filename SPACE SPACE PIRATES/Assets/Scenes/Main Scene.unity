@@ -15549,6 +15549,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueCanvas: {fileID: 23980290}
   interactKey: 101
+  questSystem: {fileID: 1816443280}
+  starQuest: {fileID: 1891964116}
+  questName: Connect the Stars
+  questDescr: Connect the stars to reveal the door code.
+  hasGiven: 0
 --- !u!114 &1257424534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15563,9 +15568,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: 02be2d3778574664fa5fd1db0c0a347a, type: 2}
   dialoguePanel: {fileID: 1403646691}
-  dialogueText: {fileID: 0}
-  nameText: {fileID: 468722179}
-  portraitImage: {fileID: 0}
+  dialogueText: {fileID: 442416291}
+  nameText: {fileID: 2049716726}
+  portraitImage: {fileID: 944017055}
 --- !u!1 &1258567604
 GameObject:
   m_ObjectHideFlags: 0
