@@ -1513,12 +1513,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'That was a wild dream!
+  m_text: 'That was a crazy dream...
 
-    Ugh but I didn''t get the rest I needed...
-
-    Maybe
-    I should try going back to sleep?'
+    Ugh oh no!! I overslept and now I''m late
+    to Fiction Con!!!! '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 54e1fafaba6b2644aa76302a52313b81, type: 2}
   m_sharedMaterial: {fileID: 8086663066503311760, guid: 54e1fafaba6b2644aa76302a52313b81, type: 2}
@@ -10946,6 +10944,7 @@ GameObject:
   - component: {fileID: 1257424531}
   - component: {fileID: 1257424530}
   - component: {fileID: 1257424529}
+  - component: {fileID: 1257424533}
   m_Layer: 0
   m_Name: RobotNPC_starQuest
   m_TagString: Untagged
@@ -11091,6 +11090,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1257424533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257424528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7940fa0029443b18773b0f8e53bb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueCanvas: {fileID: 0}
+  interactKey: 101
 --- !u!1 &1258567604
 GameObject:
   m_ObjectHideFlags: 0
