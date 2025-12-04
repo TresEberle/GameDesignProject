@@ -172,6 +172,12 @@ public class Player : MonoBehaviour
 
     }
 
+    public void ApplySpeedBoost(float boostAmount, float duration)
+    {
+        moveSpeed += boostAmount;
+        Debug.Log($"Player speed increased. New moveSpeed = {moveSpeed}");
+    }
+
     private void OnDrawGizmos()
     {
         //Gizmos.DrawLine(transform.position, transform.position + new Vector3(0, -groundCheckDistance));

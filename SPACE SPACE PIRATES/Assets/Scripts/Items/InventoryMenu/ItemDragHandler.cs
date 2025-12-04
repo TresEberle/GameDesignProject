@@ -22,13 +22,35 @@ public class ItemDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     }
     public void UseItem()
     {
-        if (itemDictionary == null)
-        {
-            Debug.LogWarning("ItemDragHandler: No ItemDictionary found in scene.");
-            return;
-        }
 
         itemDictionary.UseItem(ID);
+        
+        if (ID == 1) //healthID
+        {
+        // Clear the slot this icon sits in
+        Slot parentSlot = GetComponentInParent<Slot>();
+        if (parentSlot != null)
+        {
+            parentSlot.currentItem = null;
+        }
+
+        // Destroy the icon so it disappears from hotbar/inventory
+        Destroy(gameObject);
+        }
+
+        if (ID == 4) //SpeedID
+        {
+        // Clear the slot this icon sits in
+        Slot parentSlot = GetComponentInParent<Slot>();
+        if (parentSlot != null)
+        {
+            parentSlot.currentItem = null;
+        }
+
+        // Destroy the icon so it disappears from hotbar/inventory
+        Destroy(gameObject);
+        }
+
     }
 
     public void OnBeginDrag(PointerEventData eventData)

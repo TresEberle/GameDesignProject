@@ -31,8 +31,6 @@ public class ItemDictionary : MonoBehaviour
         }
 
 
-        Debug.Log($"[UseItem] Used item: {entry.itemName} (ID {id})");
-        Debug.Log($"[UseItem] pickupPrefab on entry = {entry.pickupPrefab}");
         Debug.Log($"Used item: {entry.itemName} (ID {id})");
     
         WeaponItem weaponPickup = entry.pickupPrefab as WeaponItem;
@@ -41,16 +39,31 @@ public class ItemDictionary : MonoBehaviour
         Player player = FindObjectOfType<Player>();
 
         WeaponHolder holder = player.GetComponentInChildren<WeaponHolder>();
-        if (holder == null)
-        {
-            Debug.LogWarning("ItemDictionary: No WeaponHolder found on Player.");
-            return;
-        }
         
         Debug.Log($"[UseItem] Equipping weapon prefab: {weaponPickup.weaponPrefab.name}");
 
         holder.EquipWeapon(weaponPickup.weaponPrefab, weaponPickup.weaponOffset);
         }
 
+        Player player1 = FindObjectOfType<Player>();
+
+
+    // Handle effects by ID
+        switch (id)
+        {
+        // example: health item ID = 3
+        case 1:
+            float healAmount = 10f;   // tweak this value as you like
+            player1.Heal(healAmount);
+            Debug.Log($"Healed player by {healAmount}. Current health = {player1.health}");
+            break;
+
+        case 4:
+            float speedBoost = 4f; // tweak this value as you like
+            float boostDuration = 5f; // seconds
+            player1.ApplySpeedBoost(speedBoost, boostDuration);
+            Debug.Log($"Applied speed boost of {speedBoost} for {boostDuration} seconds.");
+            break;
+        }
     }
 }
