@@ -4,7 +4,7 @@ public class WeaponHolder : MonoBehaviour
 {
     private GameObject currentWeapon;
 
-    public void EquipWeapon(GameObject weaponPrefab)
+    public void EquipWeapon(GameObject weaponPrefab, Vector3 offset)
     {
         if (weaponPrefab == null)
         {
@@ -18,7 +18,7 @@ public class WeaponHolder : MonoBehaviour
         }
 
         currentWeapon = Instantiate(weaponPrefab, transform);
-        currentWeapon.transform.localPosition = Vector3.zero;
+        currentWeapon.transform.localPosition = offset;
         currentWeapon.transform.localRotation = Quaternion.identity;
     }
 }
