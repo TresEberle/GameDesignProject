@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mechanic
   m_EditorClassIdentifier: 
   npcName: Chef
-  npcPortrait: {fileID: 783951016060943522, guid: 6eb297b1332dee848aebfd72d0042956, type: 3}
+  npcPortrait: {fileID: -1848549700307394460, guid: fd8cda74bf485d04fb13954192476095, type: 3}
   dialogueLines:
   - I was looking for food and i fell in this portal
   - I am so hungry

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chef
   m_EditorClassIdentifier: 
   npcName: Chef
-  npcPortrait: {fileID: 783951016060943522, guid: 6eb297b1332dee848aebfd72d0042956, type: 3}
+  npcPortrait: {fileID: 7642250867827739962, guid: fd8cda74bf485d04fb13954192476095, type: 3}
   dialogueLines:
   - Did the Captain Send You?
   - Theres Something Glowing In the Freezer?

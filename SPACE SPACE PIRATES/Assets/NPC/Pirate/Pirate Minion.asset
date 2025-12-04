@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a633378fd70d1648a469aa705166248, type: 3}
   m_Name: Pirate Minion
   m_EditorClassIdentifier: 
-  npcName: Chef
-  npcPortrait: {fileID: 783951016060943522, guid: 6eb297b1332dee848aebfd72d0042956, type: 3}
+  npcName: Pirate Crew Member
+  npcPortrait: {fileID: 21300000, guid: 4700ae56cad1fdb4a8c17c8783e76c9c, type: 3}
   dialogueLines:
   - Yarrrrr
   - Yar?
+  - Have You seen the captains parrot?
   typingSpeed: 0.02
-  autoProgressLines: 0101
+  autoProgressLines: 000000
   autoProgressDelay: 1.5
   voiceSound: {fileID: 8300000, guid: e8f965c63db46754eab6d5bf65a97a57, type: 3}
   voicePitch: 1

@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: PirateCDaptain
   m_EditorClassIdentifier: 
   npcName: Pirate Leader
-  npcPortrait: {fileID: 783951016060943522, guid: 6eb297b1332dee848aebfd72d0042956, type: 3}
+  npcPortrait: {fileID: 21300000, guid: f4d8fb184aaa6f046a713470d1d1bb3a, type: 3}
   dialogueLines:
   - Hey, can you help me?
   - 'I Need 10 StarFishes, they are around here somewhere? '
+  - Yarr? Did you get me the stars yet?
   typingSpeed: 0.02
-  autoProgressLines: 0100
+  autoProgressLines: 000000
   autoProgressDelay: 1.5
   voiceSound: {fileID: 8300000, guid: e8f965c63db46754eab6d5bf65a97a57, type: 3}
   voicePitch: 1

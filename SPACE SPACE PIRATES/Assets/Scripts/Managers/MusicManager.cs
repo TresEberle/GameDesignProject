@@ -78,6 +78,7 @@ public class MusicManager : MonoBehaviour
                 HandleStartMusic();
                 break;
             case GameMusic.PirateMusic:
+                HandlePirate01Music();
                 break;
             case GameMusic.endingMusic:
                 break;
@@ -99,6 +100,25 @@ public class MusicManager : MonoBehaviour
     public void HandleFight01Music()
     {
         changeSong(1);
+
+    }
+
+    public void HandlePirate01Music()
+    {
+        changeSong(2);
+
+    }
+
+    public void HandleEndingMusic()
+    {
+        changeSong(3);
+
+    }
+
+
+    public void HandleDeadMusic()
+    {
+        changeSong(4);
 
     }
 
