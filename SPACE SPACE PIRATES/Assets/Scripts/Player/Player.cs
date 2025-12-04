@@ -91,6 +91,10 @@ public class Player : MonoBehaviour
     {
         stateMachine.UpdateActiveState();
 
+        //if(health <= 0)
+        //{
+        //    Die();
+        //}
     }
 
     public void SetVelocity(float xVelocity, float yVelocity) {

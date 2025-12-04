@@ -38,13 +38,7 @@ public abstract class EntityState {
             Debug.Log("QUEST TAB");
         }
 
-        if (input.Player.Interact.WasPressedThisFrame()) {
-            //TODO: // debug audio for now, to be change as a button to interact with npcs or objects
-            Debug.Log("Interact Key Was pressed");
-            GameManager.instance.playerTeleport();
-            CameraShake.instance.ShakeCamera(5f,2f);
 
-        }
 
 
         if (input.Player.MenuPage.WasPressedThisFrame())
