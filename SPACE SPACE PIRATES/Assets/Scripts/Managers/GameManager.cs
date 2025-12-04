@@ -231,13 +231,18 @@ public class GameManager : MonoBehaviour
     }
 
     // Only show the death scene panels when player is dead:
+    
+
     public void showScene()
     {
+        /*
         if(deathCanvas != null)
         {
             deathCanvas.SetActive(true);
         }
+        */
     }
+    
 
     //when player dies, let them have two options:
     //go back to menu or exit game
