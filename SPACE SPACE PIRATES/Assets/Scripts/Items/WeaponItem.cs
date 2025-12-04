@@ -4,7 +4,9 @@ public class WeaponItem : Item
 {
     [Header("Weapon")]
     public GameObject weaponPrefab; 
-
+    
+    [Header("Hold Offset")]
+    public Vector3 weaponOffset;
 protected override bool ApplyPickup(Collider2D player)
 {
     // Just add to hotbar/inventory via Item.ApplyPickup
@@ -26,7 +28,7 @@ protected override bool ApplyPickup(Collider2D player)
             WeaponHolder holder = playerComp.GetComponentInChildren<WeaponHolder>();
             if (holder != null)
             {
-                holder.EquipWeapon(weaponPrefab);
+                holder.EquipWeapon(weaponPrefab, weaponOffset);
             }
         }
     }
