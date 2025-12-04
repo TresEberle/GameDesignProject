@@ -39,11 +39,6 @@ public class ItemDictionary : MonoBehaviour
         if (weaponPickup != null && weaponPickup.weaponPrefab != null)
         {
         Player player = FindObjectOfType<Player>();
-        if (player == null)
-        {
-            Debug.LogWarning("ItemDictionary: No Player found in scene.");
-            return;
-        }
 
         WeaponHolder holder = player.GetComponentInChildren<WeaponHolder>();
         if (holder == null)
@@ -54,7 +49,7 @@ public class ItemDictionary : MonoBehaviour
         
         Debug.Log($"[UseItem] Equipping weapon prefab: {weaponPickup.weaponPrefab.name}");
 
-        holder.EquipWeapon(weaponPickup.weaponPrefab);
+        holder.EquipWeapon(weaponPickup.weaponPrefab, weaponPickup.weaponOffset);
         }
 
     }
