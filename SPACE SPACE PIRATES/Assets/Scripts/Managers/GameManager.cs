@@ -157,6 +157,7 @@ public class GameManager : MonoBehaviour
             case GameState.Sequence06:
                 setState(GameState.Sequence06);
                 HandleSixthSequence();
+                showScene();
 
                 break;
             case GameState.end:
