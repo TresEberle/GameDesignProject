@@ -3,6 +3,8 @@ using UnityEngine.InputSystem;
 
 public class HotbarController : MonoBehaviour
 {
+    public static HotbarController Instance { get; private set; }
+
     public GameObject hotbarPanel;
     public GameObject slot;
     public int slotCount = 9;
@@ -14,6 +16,15 @@ public class HotbarController : MonoBehaviour
 
     private void Awake()
     {
+            
+    
+        if (Instance != null && Instance != this)
+        {
+        Debug.LogWarning("Multiple HotbarController instances found. Destroying duplicate.");
+        Destroy(gameObject);
+        return;
+        }
+        Instance = this;
         itemDictionary = FindObjectOfType<ItemDictionary>();
         hotbarKeys = new Key[slotCount];
         for(int i =0; i < slotCount; i++)
@@ -83,4 +94,32 @@ public class HotbarController : MonoBehaviour
 
     dragHandler.UseItem();
     }
+
+    public bool AddItem(GameObject itemPrefab)
+{
+    if (itemPrefab == null)
+    {
+        Debug.LogWarning("HotbarController.AddItem called with null prefab.");
+        return false;
+    }
+
+    foreach (Transform child in hotbarPanel.transform)
+    {
+        Slot slot = child.GetComponent<Slot>();
+        if (slot != null && slot.currentItem == null)
+        {
+            GameObject item = Instantiate(itemPrefab, slot.transform);
+            var rect = item.GetComponent<RectTransform>();
+            if (rect != null)
+                rect.anchoredPosition = Vector2.zero;
+
+            slot.currentItem = item;
+            return true;
+        }
+    }
+
+    Debug.Log("Hotbar full, cannot add item: " + itemPrefab.name);
+    return false;
+}
+
 }

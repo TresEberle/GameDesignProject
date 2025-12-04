@@ -98,7 +98,7 @@ public class Player : MonoBehaviour
     {
         stateMachine.UpdateActiveState();
 
-        //TELEPORT GUN BACK TO PLAYER 
+        /*TELEPORT GUN BACK TO PLAYER 
         Speak_collider.GetComponent<Transform>().localPosition = new Vector3(0, 0, 0);
         gun.GetComponent<Transform>().localPosition = new Vector3(0,0,0);
         GameObject foundObject = GameObject.Find("Gun(Clone)");
@@ -106,7 +106,7 @@ public class Player : MonoBehaviour
             foundObject.GetComponent<Transform>().localPosition = new Vector3(0, 0, 0);
         }
 
-
+*/
 
         //if(health <= 0)
         //{

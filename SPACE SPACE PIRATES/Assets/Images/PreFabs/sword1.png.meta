@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 46a10cdbfab30c649a237ed1b721866f
+guid: 7882af4c22535a64c8d45b1ee6bdb7fb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6868717884262248545
-    second: pngimg.com - lobster_PNG14261 (2)_0
+      213: 6914154902746628804
+    second: sword1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,40 +96,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pngimg.com - lobster_PNG14261 (2)_0
+      name: sword1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1331
-        height: 646
+        width: 305
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 160f2d11686925f50800000000000000
-      internalID: 6868717884262248545
+      spriteID: 4c20d34504304ff50800000000000000
+      internalID: 6914154902746628804
       vertices: []
       indices: 
       edges: []
@@ -138,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 714ece6146d949c42bc5074a3f02398a
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pngimg.com - lobster_PNG14261 (2)_0: 6868717884262248545
+      sword1_0: 6914154902746628804
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

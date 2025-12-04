@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bahama3_0: -4004570396908509375
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,7 +8,19 @@ public class Item : PickupBase
 
     protected override bool ApplyPickup(Collider2D player)
     {
-        return InventoryController.Instance.AddItem(slotIconPrefab);
+        bool added = false;
+
+        if (HotbarController.Instance != null)
+        {
+        added = HotbarController.Instance.AddItem(slotIconPrefab);
+        }
+
+        if (!added && InventoryController.Instance != null)
+        {
+        added = InventoryController.Instance.AddItem(slotIconPrefab);
+        }
+
+        return added;    
     }
 
     public virtual void UseItem()
