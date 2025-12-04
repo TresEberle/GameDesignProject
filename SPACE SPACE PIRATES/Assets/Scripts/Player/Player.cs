@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     [Header("Pop Ups?")]
     [SerializeField] public GameObject MenuPanel;
 
+    private HealthBar healthBar;
 
     public PlayerInputSet input { get; private set; }
     public StateMachine stateMachine { get; private set; }
@@ -92,6 +93,14 @@ public class Player : MonoBehaviour
     private void Start()
     {
         stateMachine.Intilize(idleState);
+        health = maxHealth;
+
+        healthBar = FindObjectOfType<HealthBar>();
+        if (healthBar != null)
+        {
+        healthBar.SetHealth(health, maxHealth);
+        }
+
     }
 
     private void Update()
@@ -140,6 +149,10 @@ public class Player : MonoBehaviour
     {
         if (health <= 0f) Die();
         health = Mathf.Max(0f, health - amount);
+
+        if (healthBar != null)
+        healthBar.SetHealth(health, maxHealth);
+
     }
     
     public void Flip()
@@ -153,6 +166,10 @@ public class Player : MonoBehaviour
     {
         if (health <= 0f) Die();
         health = Mathf.Min(maxHealth, health + amount);
+
+        if (healthBar != null)
+        healthBar.SetHealth(health, maxHealth);
+
     }
 
     private void OnDrawGizmos()

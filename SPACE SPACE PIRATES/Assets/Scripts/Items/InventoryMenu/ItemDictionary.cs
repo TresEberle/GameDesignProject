@@ -31,13 +31,13 @@ public class ItemDictionary : MonoBehaviour
         }
 
 
-    Debug.Log($"[UseItem] Used item: {entry.itemName} (ID {id})");
-    Debug.Log($"[UseItem] pickupPrefab on entry = {entry.pickupPrefab}");
+        Debug.Log($"[UseItem] Used item: {entry.itemName} (ID {id})");
+        Debug.Log($"[UseItem] pickupPrefab on entry = {entry.pickupPrefab}");
         Debug.Log($"Used item: {entry.itemName} (ID {id})");
     
-    WeaponItem weaponPickup = entry.pickupPrefab as WeaponItem;
-    if (weaponPickup != null && weaponPickup.weaponPrefab != null)
-    {
+        WeaponItem weaponPickup = entry.pickupPrefab as WeaponItem;
+        if (weaponPickup != null && weaponPickup.weaponPrefab != null)
+        {
         Player player = FindObjectOfType<Player>();
         if (player == null)
         {
@@ -52,10 +52,10 @@ public class ItemDictionary : MonoBehaviour
             return;
         }
         
-    Debug.Log($"[UseItem] Equipping weapon prefab: {weaponPickup.weaponPrefab.name}");
+        Debug.Log($"[UseItem] Equipping weapon prefab: {weaponPickup.weaponPrefab.name}");
 
         holder.EquipWeapon(weaponPickup.weaponPrefab);
-    }
+        }
 
     }
 }
