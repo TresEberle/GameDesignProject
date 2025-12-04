@@ -14,6 +14,7 @@ public class WeaponItem : Item
         if (playerComp != null && weaponPrefab != null)
         {
             WeaponHolder holder = playerComp.GetComponentInChildren<WeaponHolder>();
+            autoDespawnAfter = 0f;
             if (holder != null)
             {
                 holder.EquipWeapon(weaponPrefab);
